@@ -69,12 +69,12 @@ function normalizeBook(id: BookId, raw: unknown): Book | null {
   // 书1：{ rootGroups: [{ root, meaning, entries: [...] }] }
   if (Array.isArray(data.rootGroups)) {
     const groups: WordGroup[] = (data.rootGroups as Record<string, unknown>[]).map((g, gi) => {
-      const rawRoot = String(g.root ?? '')
-      // 「单列」不是词根，是 PDF 里 🔺单列 区块标记的散词区（无共同词根的词）。
-      // 展示成「△ 单列」用户会莫名其妙，这里改成可读标题并单独标记。
-      const isScatter = rawRoot === '单列'
-      // 数据缺陷兜底：极少数组的 root 被误填成中文释义（如 #281 root='海洋' 但没有含义），
-      // 让「△ 海洋」这种标题看起来很怪。若 root 含中文却缺 meaning，视为释义串位，回填到 meaning。
+      const rawRoot = String(g.root ?? '').trim()
+      // 散词区判定：原书「△单列」标记的区块，没有共同词根。
+      // 数据里可能表现为 root === '单列'（旧版）或 root === ''（手写版统一成空串），
+      // 两种都要认，否则标题会退化成「第 493 组」，用户完全看不懂。
+      const isScatter = rawRoot === '单列' || rawRoot === ''
+      // 数据缺陷兜底：极少数组的 root 被误填成中文释义，若 root 含中文却缺 meaning，回填到 meaning。
       let root = isScatter ? '' : rawRoot
       let rootMeaning = String(g.meaning ?? '')
       if (root && CJK_RE.test(root) && !rootMeaning) {

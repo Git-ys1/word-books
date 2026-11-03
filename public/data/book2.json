@@ -9552,6 +9552,42 @@
      "meaning": "求职者n.",
      "memory": "",
      "segments": []
+    },
+    {
+     "word": "weigh",
+     "root": "weigh",
+     "rootMeaning": "称重v.",
+     "meaning": "称重v.",
+     "memory": "",
+     "segments": [],
+     "_src": "p35"
+    },
+    {
+     "word": "fair",
+     "root": "fair",
+     "rootMeaning": "公平的",
+     "meaning": "公平的adj.",
+     "memory": "",
+     "segments": [],
+     "_src": "p36"
+    },
+    {
+     "word": "solve",
+     "root": "solve",
+     "rootMeaning": "解决",
+     "meaning": "解决v.",
+     "memory": "",
+     "segments": [],
+     "_src": "p36"
+    },
+    {
+     "word": "wake",
+     "root": "wake",
+     "rootMeaning": "醒来",
+     "meaning": "醒来v.",
+     "memory": "",
+     "segments": [],
+     "_src": "p36"
     }
    ]
   },

@@ -300,23 +300,30 @@ export default function ReciteSession({
             )}
           </div>
 
-          {/* 拆解按钮 + 展开区 */}
-          <div className="px-5">
+          {/* 拆解按钮 + 展开区
+              位置要求（用户明确）：放中间偏下，拇指够得到的地方。
+              做法：用 flex-1 撑开剩余空间，让拆解区自然落到下半屏；
+              卡片底部还留着「不认识/认识」两个大按钮。 */}
+          <div className="mt-auto flex flex-col px-5">
             {!expanded ? (
-              <button
-                onClick={() => {
-                  setExpanded(true)
-                  haptic(settings, 10)
-                }}
-                className="group flex w-full items-center justify-center gap-1.5 rounded-2xl border border-dashed border-ink-200 bg-ink-50/60 py-3 text-[14px] font-medium text-ink-500 transition active:scale-[.99] active:bg-ink-100"
-              >
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 5v14M5 12h14" strokeLinecap="round" />
-                </svg>
-                拆解
-              </button>
+              <>
+                {/* 上半部分留白，把按钮推下去 */}
+                <div className="min-h-[12vh] flex-1" />
+                <button
+                  onClick={() => {
+                    setExpanded(true)
+                    haptic(settings, 10)
+                  }}
+                  className="group flex w-full items-center justify-center gap-1.5 rounded-2xl border border-dashed border-ink-200 bg-ink-50/60 py-4 text-[15px] font-medium text-ink-500 transition active:scale-[.99] active:bg-ink-100"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 5v14M5 12h14" strokeLinecap="round" />
+                  </svg>
+                  拆解
+                </button>
+              </>
             ) : (
-              <div className="rounded-2xl border border-ink-100 bg-ink-50/40 p-3">
+              <div className="max-h-[46vh] overflow-y-auto rounded-2xl border border-ink-100 bg-ink-50/40 p-3">
                 <Breakdown
                   segments={entry.segments}
                   memory={entry.memory}
