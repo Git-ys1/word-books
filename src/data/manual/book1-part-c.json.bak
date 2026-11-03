@@ -1,0 +1,5257 @@
+{
+  "book": "book1",
+  "part": "c",
+  "pageRange": "241-360",
+  "rootGroups": [
+    {
+      "root": "man manu",
+      "meaning": "手→控制",
+      "entries": [
+        {
+          "word": "manage",
+          "meaning": "v.管理",
+          "segments": [
+            { "text": "man", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "age", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "manager",
+          "meaning": "n.管理者",
+          "segments": [{ "text": "manager", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "management",
+          "meaning": "n.管理",
+          "segments": [{ "text": "management", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "manufacture",
+          "meaning": "v.制造 n.制造（品）",
+          "segments": [
+            { "text": "manu", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "fact", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ure", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "做", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "manner",
+          "meaning": "n.礼貌",
+          "segments": [
+            { "text": "man", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ner", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "permanent",
+          "meaning": "a.永久的",
+          "segments": [
+            { "text": "per", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "man", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "贯穿", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "remain",
+          "meaning": "v.仍然是；保持；保留",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "main", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "回", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "手", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "manual",
+          "meaning": "a.手工的",
+          "segments": [
+            { "text": "manu", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "manifest",
+          "meaning": "v.显现；a.显眼的",
+          "segments": [
+            { "text": "man", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "fest", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "手", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "抓住", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "merg",
+      "meaning": "沉没",
+      "entries": [
+        {
+          "word": "emerge",
+          "meaning": "v.出现",
+          "segments": [
+            { "text": "e", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "merg", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "沉没", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "emergency",
+          "meaning": "n.紧急情况",
+          "segments": [{ "text": "emergency", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "merge",
+          "meaning": "v.合并",
+          "segments": [
+            { "text": "merg", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "沉没", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "merger",
+          "meaning": "n.合并；并购",
+          "segments": [{ "text": "merger", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "submerge",
+          "meaning": "v.沉入水中；完全掩盖",
+          "segments": [
+            { "text": "sub", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "merg", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "下面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "沉没", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "immerse",
+          "meaning": "v.沉浸；使陷入",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mers", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "沉没", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "men(t)",
+      "meaning": "心智；思考",
+      "entries": [
+        {
+          "word": "mental",
+          "meaning": "a.精神的",
+          "segments": [
+            { "text": "ment", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "心智", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mention",
+          "meaning": "v.n.提到",
+          "segments": [
+            { "text": "ment", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "心智", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "comment",
+          "meaning": "n.v.评论",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ment", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "心智", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "commentary",
+          "meaning": "n.现场报道",
+          "segments": [{ "text": "commentary", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mentor",
+          "meaning": "n.导师",
+          "segments": [
+            { "text": "ment", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "or", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "心智", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mean",
+          "meaning": "v.意味着 a.自私的；平均的 n.平均数",
+          "segments": [
+            { "text": "men", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "思考", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "means",
+          "meaning": "n.手段；方法",
+          "segments": [{ "text": "means", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "meanwhile",
+          "meaning": "ad.同时；在此期间",
+          "segments": [
+            { "text": "mean", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "while", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "中间", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "在…期间", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "memor member",
+      "meaning": "记忆",
+      "entries": [
+        {
+          "word": "memory",
+          "meaning": "n.记忆",
+          "segments": [
+            { "text": "memor", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "y", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "记忆", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "memorize",
+          "meaning": "v.记住",
+          "segments": [{ "text": "memorize", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "memorial",
+          "meaning": "n.纪念碑；纪念物",
+          "segments": [{ "text": "memorial", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "memorable",
+          "meaning": "a.值得记忆的",
+          "segments": [{ "text": "memorable", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "remember",
+          "meaning": "v.记得",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "member", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "反复", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "记忆", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mun",
+      "meaning": "服务；职责",
+      "entries": [
+        {
+          "word": "communicate",
+          "meaning": "v.交流；沟通",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mun", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "icate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "服务", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "communication",
+          "meaning": "n.交流；沟通",
+          "segments": [{ "text": "communication", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "community",
+          "meaning": "n.社区",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mun", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ity", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "服务", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "communal",
+          "meaning": "a.公共的",
+          "segments": [{ "text": "communal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "communism",
+          "meaning": "n.共产主义",
+          "segments": [{ "text": "communism", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "common",
+          "meaning": "a.普通的；一般的",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mon", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "服务", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "immune",
+          "meaning": "a.免疫的",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mun", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "服务", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "immunity",
+          "meaning": "n.免疫；豁免；免疫力",
+          "segments": [{ "text": "immunity", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "meter metry meas mens",
+      "meaning": "测量",
+      "entries": [
+        {
+          "word": "measure",
+          "meaning": "v.测量 n.测量；尺寸；措施",
+          "segments": [
+            { "text": "meas", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ure", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "测量", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "meter",
+          "meaning": "n.米；仪表",
+          "segments": [
+            { "text": "meter", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "测量", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "dimension",
+          "meaning": "n.尺寸；尺度；维度；方面",
+          "segments": [
+            { "text": "di", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "穿过", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "测量", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "diameter",
+          "meaning": "n.直径",
+          "segments": [
+            { "text": "dia", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "meter", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "穿过", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "测量", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "immense",
+          "meaning": "a.极大的；巨大的",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "测量", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "symmetry",
+          "meaning": "n.对称",
+          "segments": [
+            { "text": "sym", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "metry", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "with", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "测量", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mount",
+      "meaning": "山",
+      "entries": [
+        {
+          "word": "mountain",
+          "meaning": "n.山脉",
+          "segments": [
+            { "text": "mount", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ain", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "山", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mountainous",
+          "meaning": "a.多山的",
+          "segments": [{ "text": "mountainous", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mount",
+          "meaning": "v.增加；上升",
+          "segments": [
+            { "text": "mount", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "山", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "amount",
+          "meaning": "n.数量",
+          "segments": [
+            { "text": "a", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mount", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "增加", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "surmount",
+          "meaning": "v.战胜；在…之上",
+          "segments": [
+            { "text": "sur", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mount", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "上", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "山", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mor",
+      "meaning": "道德",
+      "entries": [
+        {
+          "word": "moral",
+          "meaning": "a.道德的 n.道德",
+          "segments": [
+            { "text": "mor", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "道德", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "morality",
+          "meaning": "n.道德",
+          "segments": [{ "text": "morality", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "demoralize",
+          "meaning": "v.使士气低落",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "moral", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ize", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "道德", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "merc(h)",
+      "meaning": "商业",
+      "entries": [
+        {
+          "word": "commercial",
+          "meaning": "a.商业的；商务的",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "merc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ial", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "商业", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "commerce",
+          "meaning": "n.商业；贸易",
+          "segments": [{ "text": "commerce", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "merchant",
+          "meaning": "n.商人",
+          "segments": [
+            { "text": "merch", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ant", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "商业", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "merchandise",
+          "meaning": "n.商品",
+          "segments": [{ "text": "merchandise", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mercy",
+          "meaning": "n.仁慈；宽恕；幸运",
+          "segments": [
+            { "text": "merc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "y", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "商品", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "merciful",
+          "meaning": "a.仁慈的；令人解脱的",
+          "segments": [{ "text": "merciful", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "monstr",
+      "meaning": "显示",
+      "entries": [
+        {
+          "word": "monster",
+          "meaning": "n.怪物",
+          "segments": [
+            { "text": "monstr", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "显示", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monstrous",
+          "meaning": "a.骇人听闻的；巨大的",
+          "segments": [{ "text": "monstrous", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "demonstrate",
+          "meaning": "v.论证",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "monstr", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "显示", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "demonstration",
+          "meaning": "n.论证；示范",
+          "segments": [{ "text": "demonstration", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mand mend",
+      "meaning": "命令",
+      "entries": [
+        {
+          "word": "command",
+          "meaning": "n.v.命令；指挥",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mand", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "命令", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "demand",
+          "meaning": "v.要求",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mand", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "命令", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "recommend",
+          "meaning": "v.推荐；建议",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mend", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "再", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "命令", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "countermand",
+          "meaning": "v.撤回",
+          "segments": [
+            { "text": "counter", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mand", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "反向", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "命令", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mut",
+      "meaning": "交换",
+      "entries": [
+        {
+          "word": "mutual",
+          "meaning": "a.相互的；共同的",
+          "segments": [
+            { "text": "mut", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ual", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "交换", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "commute",
+          "meaning": "v.交换；通勤",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mut", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "彼此", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "交换", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mon(it)",
+      "meaning": "警示",
+      "entries": [
+        {
+          "word": "monitor",
+          "meaning": "n.v.监控 n.班长",
+          "segments": [
+            { "text": "monit", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "or", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "警示", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monument",
+          "meaning": "n.纪念碑",
+          "segments": [
+            { "text": "mon", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "u", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ment", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "警示", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "marin",
+      "meaning": "海洋",
+      "entries": [
+        {
+          "word": "marine",
+          "meaning": "a.海的；海军的 n.海军",
+          "segments": [
+            { "text": "marin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "海洋", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "submarine",
+          "meaning": "n.潜艇 a.水下的",
+          "segments": [{ "text": "submarine", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mus",
+      "meaning": "娱乐",
+      "entries": [
+        {
+          "word": "musical",
+          "meaning": "a.音乐的",
+          "segments": [
+            { "text": "mus", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ical", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "娱乐", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "amuse",
+          "meaning": "v.使人快乐；取悦",
+          "segments": [
+            { "text": "a", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "mus", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "娱乐", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "amusement",
+          "meaning": "n.娱乐；娱乐活动",
+          "segments": [{ "text": "amusement", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "math",
+      "meaning": "学习",
+      "entries": [
+        {
+          "word": "mathematics",
+          "meaning": "n.数学",
+          "segments": [
+            { "text": "math", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ema", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "tics", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "学习", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "学科", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "moment",
+      "meaning": "片刻（mov）",
+      "entries": [
+        {
+          "word": "moment",
+          "meaning": "n.片刻",
+          "segments": [
+            { "text": "moment", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "片刻", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "momentum",
+          "meaning": "n.动力；势头",
+          "segments": [
+            { "text": "moment", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "um", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "片刻", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "maxi",
+      "meaning": "大",
+      "entries": [
+        {
+          "word": "maximum",
+          "meaning": "n.a.最大量（的）最大限度（的）",
+          "segments": [
+            { "text": "maxi", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "mum", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "大", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "major",
+      "meaning": "大的",
+      "entries": [
+        {
+          "word": "major",
+          "meaning": "a.大的；主要的",
+          "segments": [
+            { "text": "major", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "大的", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "majority",
+          "meaning": "n.大多数；大部分",
+          "segments": [{ "text": "majority", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "micro",
+      "meaning": "微",
+      "entries": [
+        {
+          "word": "microwave",
+          "meaning": "n.微波炉",
+          "segments": [
+            { "text": "micro", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "wave", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "微", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "波", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mend",
+      "meaning": "改错",
+      "entries": [
+        {
+          "word": "mend",
+          "meaning": "v.修理；治愈",
+          "segments": [
+            { "text": "mend", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "改错", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mous",
+      "meaning": "老鼠",
+      "entries": [
+        {
+          "word": "moustache",
+          "meaning": "n.小胡子",
+          "segments": [
+            { "text": "mous", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "tache", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "老鼠", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mouse",
+          "meaning": "n.老鼠",
+          "segments": [{ "text": "mouse", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mice",
+          "meaning": "n.pl.老鼠",
+          "segments": [{ "text": "mice", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mix",
+      "meaning": "混合",
+      "entries": [
+        {
+          "word": "mixture",
+          "meaning": "n.混合物",
+          "segments": [
+            { "text": "mix", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ture", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "混合", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mix",
+          "meaning": "v.混合",
+          "segments": [{ "text": "mix", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "milli",
+      "meaning": "千",
+      "entries": [
+        {
+          "word": "million",
+          "meaning": "n.百万",
+          "segments": [
+            { "text": "mill", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "千", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "millionaire",
+          "meaning": "n.百万富翁",
+          "segments": [{ "text": "millionaire", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "millimetre",
+          "meaning": "n.毫米",
+          "segments": [
+            { "text": "milli", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "metre", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "千", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "测量", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mechan",
+      "meaning": "机械",
+      "entries": [
+        {
+          "word": "mechanical",
+          "meaning": "a.机械的",
+          "segments": [
+            { "text": "mechan", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ical", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "机械", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mechanism",
+          "meaning": "n.机制；机械装置",
+          "segments": [{ "text": "mechanism", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "machine",
+          "meaning": "n.机器",
+          "segments": [
+            { "text": "machin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "机械", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mon(o)",
+      "meaning": "单一",
+      "entries": [
+        {
+          "word": "monarch",
+          "meaning": "n.君主",
+          "segments": [
+            { "text": "mon", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "arch", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "单一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "拱形", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monocracy",
+          "meaning": "n.独裁统治",
+          "segments": [
+            { "text": "mono", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "cracy", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "单一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "权力", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monopoly",
+          "meaning": "n.垄断；垄断者",
+          "segments": [
+            { "text": "mono", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "poly", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "单一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "卖", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monotonous",
+          "meaning": "a.无变化的；单调乏味的",
+          "segments": [
+            { "text": "mono", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ton", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ous", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "单一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "声音", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "monetary",
+          "meaning": "a.货币的",
+          "segments": [
+            { "text": "mon", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "et", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ary", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "单一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mater",
+      "meaning": "母",
+      "entries": [
+        {
+          "word": "matter",
+          "meaning": "n.物质 v.要紧",
+          "segments": [
+            { "text": "mater", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "母", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "material",
+          "meaning": "a.物体的；实体的",
+          "segments": [
+            { "text": "mater", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ial", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "母", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "mort",
+      "meaning": "死亡",
+      "entries": [
+        {
+          "word": "mortal",
+          "meaning": "a.致命的；凡人的；总有一死的 n.人类；凡人",
+          "segments": [
+            { "text": "mort", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "死", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "immortal",
+          "meaning": "a.不朽的",
+          "segments": [{ "text": "immortal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mortality",
+          "meaning": "n.死亡数；死亡率",
+          "segments": [{ "text": "mortality", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "mortgage",
+          "meaning": "n.抵押贷款；v.抵押",
+          "segments": [
+            { "text": "mort", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "gage", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "死亡", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "承诺", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "murder",
+          "meaning": "v.n.谋杀",
+          "segments": [
+            { "text": "murd（mort）", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "er", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "死", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "",
+      "meaning": "单列",
+      "entries": [
+        {
+          "word": "mature",
+          "meaning": "a.成熟的",
+          "segments": [
+            { "text": "ma", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "母", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "miserable",
+          "meaning": "a.悲惨的",
+          "segments": [
+            { "text": "miser", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "able", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "可怜", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mistaken",
+          "meaning": "v.误解",
+          "segments": [
+            { "text": "mis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "take", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "(e)n", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "理解", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "marriage",
+          "meaning": "n.婚姻（生活）",
+          "segments": [
+            { "text": "marri", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "age", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "结婚", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mere",
+          "meaning": "a.仅仅；只不过；纯粹的",
+          "segments": [
+            { "text": "mer", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "发光→纯粹", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "merit",
+          "meaning": "v.值得；应获得 n.优点；价值",
+          "segments": [
+            { "text": "mer", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "it", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "发光→发散", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "master",
+          "meaning": "n.主人；大师 v.掌握；精通",
+          "segments": [
+            { "text": "来自magister", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "mag表示伟大", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "moreover",
+          "meaning": "ad.此外；而且",
+          "segments": [
+            { "text": "more", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "over", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "更多", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "在…之上", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "myth",
+          "meaning": "n.神话",
+          "segments": [
+            { "text": "拟声", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "“秘事”", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "mysterious",
+          "meaning": "a.神秘的",
+          "segments": [
+            { "text": "myst", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "er", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ious", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "神秘", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "military",
+          "meaning": "a.军事的；n.军队",
+          "segments": [
+            { "text": "milit", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ary", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "军人", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "militarily",
+          "meaning": "ad.军事上地",
+          "segments": [{ "text": "militarily", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "martial",
+          "meaning": "a.军事的（希腊神话战神马尔斯）",
+          "segments": [{ "text": "martial", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nour nurs nutri",
+      "meaning": "滋养",
+      "entries": [
+        {
+          "word": "nurse",
+          "meaning": "n.护士",
+          "segments": [
+            { "text": "nurs", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "滋养", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nursery",
+          "meaning": "n.托儿所",
+          "segments": [{ "text": "nursery", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nutrition",
+          "meaning": "n.营养",
+          "segments": [
+            { "text": "nutrit", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "滋养", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nutritional",
+          "meaning": "a.营养的",
+          "segments": [{ "text": "nutritional", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nutritious",
+          "meaning": "a.有营养的",
+          "segments": [{ "text": "nutritious", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nurture",
+          "meaning": "n.v.培养；教育；扶持",
+          "segments": [
+            { "text": "nur", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ture", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "营养", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nourish",
+          "meaning": "v.养育",
+          "segments": [
+            { "text": "nour", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ish", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "营养", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nov",
+      "meaning": "新的",
+      "entries": [
+        {
+          "word": "new",
+          "meaning": "a.新的",
+          "segments": [
+            { "text": "nov", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "新的", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "novel",
+          "meaning": "n.小说 a.新奇的",
+          "segments": [
+            { "text": "nov", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "el", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "新", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "novelist",
+          "meaning": "n.小说家",
+          "segments": [{ "text": "novelist", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "novelty",
+          "meaning": "n.新颖",
+          "segments": [{ "text": "novelty", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "novice",
+          "meaning": "n.新手",
+          "segments": [
+            { "text": "noc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ice", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "新", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "innovate",
+          "meaning": "v.革新",
+          "segments": [
+            { "text": "in", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nov", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "内部", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "新", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nom(in) onym",
+      "meaning": "名字",
+      "entries": [
+        {
+          "word": "anonymous",
+          "meaning": "a.匿名的",
+          "segments": [
+            { "text": "a", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "onym", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ous", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "名字", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nominate",
+          "meaning": "v.提名；任命",
+          "segments": [
+            { "text": "nomin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "名字", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nomination",
+          "meaning": "n.提名；任命",
+          "segments": [{ "text": "nomination", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nominator",
+          "meaning": "n.提名者；继任者",
+          "segments": [{ "text": "nominator", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nominal",
+          "meaning": "a.名义上的",
+          "segments": [{ "text": "nominal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "pseudonym",
+          "meaning": "n.假名；笔名",
+          "segments": [
+            { "text": "pseud", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "onym", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "假", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "名", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nounc",
+      "meaning": "说",
+      "entries": [
+        {
+          "word": "announce",
+          "meaning": "v.宣布",
+          "segments": [
+            { "text": "an", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nounc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "说", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "announcement",
+          "meaning": "n.宣布",
+          "segments": [{ "text": "announcement", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "pronounce",
+          "meaning": "v.发音；宣布",
+          "segments": [
+            { "text": "pro", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nounc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "向前", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "说", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "pronunciation",
+          "meaning": "n.发音；宣布",
+          "segments": [{ "text": "pronunciation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "denounce",
+          "meaning": "v.谴责；抨击",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nounc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "向下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "说", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "denouncement",
+          "meaning": "n.谴责；抨击",
+          "segments": [{ "text": "denouncement", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nat nasc nai",
+      "meaning": "出生",
+      "entries": [
+        {
+          "word": "nation",
+          "meaning": "n.国家",
+          "segments": [
+            { "text": "nat", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "出生", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "national",
+          "meaning": "a.国家的；全国的",
+          "segments": [{ "text": "national", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "international",
+          "meaning": "a.国际的",
+          "segments": [{ "text": "international", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nationality",
+          "meaning": "n.国籍",
+          "segments": [{ "text": "nationality", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nationwide",
+          "meaning": "a.全国性的；遍及全国的",
+          "segments": [{ "text": "nationwide", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "nature",
+          "meaning": "n.自然；性质",
+          "segments": [
+            { "text": "nat", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ure", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "出生", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "natural",
+          "meaning": "a.自然的；物质的；天生的",
+          "segments": [{ "text": "natural", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "naive",
+          "meaning": "a.幼稚的",
+          "segments": [
+            { "text": "来自法语", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "出生不久的状态", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "renaissance",
+          "meaning": "n.复兴",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nai", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ssance", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "再", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "出生", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "not",
+      "meaning": "知道",
+      "entries": [
+        {
+          "word": "note",
+          "meaning": "n.笔记 v.记录；指出",
+          "segments": [
+            { "text": "not", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "知道", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "notorious",
+          "meaning": "a.臭名昭著的",
+          "segments": [{ "text": "notorious", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "notable",
+          "meaning": "a.值得注意的；显著的",
+          "segments": [{ "text": "notable", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "notion",
+          "meaning": "n.观念",
+          "segments": [
+            { "text": "not", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "知道", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "notice",
+          "meaning": "n.v.通知；注意",
+          "segments": [
+            { "text": "not", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ice", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "知道", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "neg",
+      "meaning": "否认",
+      "entries": [
+        {
+          "word": "negative",
+          "meaning": "a.否定的；负的",
+          "segments": [
+            { "text": "neg", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ative", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "negotiate",
+          "meaning": "v.谈判",
+          "segments": [
+            { "text": "neg", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "oti", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "轻松", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "deny",
+          "meaning": "v.否认；拒绝",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ny(=neg)", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "×", "role": "link" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "norm",
+      "meaning": "标准",
+      "entries": [
+        {
+          "word": "norm",
+          "meaning": "n.规范；标准",
+          "segments": [
+            { "text": "norm", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "标准", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "normal",
+          "meaning": "a.正常的",
+          "segments": [{ "text": "normal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "abnormal",
+          "meaning": "a.不正常的；变态的",
+          "segments": [{ "text": "abnormal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "enormous",
+          "meaning": "a.巨大的；庞大的",
+          "segments": [
+            { "text": "e", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "norm", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ous", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "标准", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "neur nerv",
+      "meaning": "神经",
+      "entries": [
+        {
+          "word": "nerve",
+          "meaning": "n.神经；勇气",
+          "segments": [
+            { "text": "nerv", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "神经", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nervous",
+          "meaning": "a.紧张的",
+          "segments": [{ "text": "nervous", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "neural",
+          "meaning": "a.神经的",
+          "segments": [
+            { "text": "neur", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "神经", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nocu nox",
+      "meaning": "毒害",
+      "entries": [
+        {
+          "word": "innocent",
+          "meaning": "a.无辜的；天真的",
+          "segments": [
+            { "text": "in", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "noc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "毒害", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "innocence",
+          "meaning": "n.清白",
+          "segments": [{ "text": "innocence", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "innocuous",
+          "meaning": "a.无害的",
+          "segments": [
+            { "text": "in", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nocu", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ous", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "毒害", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nume",
+      "meaning": "数",
+      "entries": [
+        {
+          "word": "number",
+          "meaning": "n.数字 v.计数",
+          "segments": [
+            { "text": "numer", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "数", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "numerous",
+          "meaning": "a.许多的",
+          "segments": [{ "text": "numerous", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "numerical",
+          "meaning": "a.数值的；数字的",
+          "segments": [{ "text": "numerical", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nect nex",
+      "meaning": "联系",
+      "entries": [
+        {
+          "word": "connect",
+          "meaning": "v.连接；联合",
+          "segments": [
+            { "text": "con", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "nect", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "彼此", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "联系", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "connection",
+          "meaning": "n.连接；联系",
+          "segments": [{ "text": "connection", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "neutro",
+      "meaning": "中间",
+      "entries": [
+        {
+          "word": "neutral",
+          "meaning": "a.中立的；中性的",
+          "segments": [
+            { "text": "neutr", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "中间", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "neutralize",
+          "meaning": "v.中和",
+          "segments": [{ "text": "neutralize", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "neutralism",
+          "meaning": "n.中立（主义）",
+          "segments": [{ "text": "neutralism", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "neutralist",
+          "meaning": "n.中立主义者",
+          "segments": [{ "text": "neutralist", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "neutron",
+          "meaning": "n.中子",
+          "segments": [{ "text": "neutron", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "null",
+      "meaning": "无",
+      "entries": [
+        {
+          "word": "null",
+          "meaning": "a.无效的；等于零的",
+          "segments": [
+            { "text": "null", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "无", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "nav",
+      "meaning": "船",
+      "entries": [
+        {
+          "word": "navy",
+          "meaning": "n.海军（部队）",
+          "segments": [
+            { "text": "nav", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "y", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "船", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "navigation",
+          "meaning": "n.航行",
+          "segments": [
+            { "text": "nav", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ig", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ation", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "船", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "动", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "",
+      "meaning": "单列",
+      "entries": [
+        {
+          "word": "narrow",
+          "meaning": "a.狭窄的 n.v.（使）变窄",
+          "segments": [
+            { "text": "N象形曲折前进的东西", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "狭窄小路", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "noble",
+          "meaning": "n.a.贵族（的）",
+          "segments": [
+            { "text": "词源同know", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "远近闻名", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "n.a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "narrative",
+          "meaning": "a.叙事的 n.记叙；描述",
+          "segments": [
+            { "text": "narrat", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ive", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "讲述", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nowhere",
+          "meaning": "ad.任何地方都不",
+          "segments": [
+            { "text": "no", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "where", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "地方", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "nasty",
+          "meaning": "a.不友好的；极差的",
+          "segments": [
+            { "text": "疑似源于nose", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "难闻的厌恶的内涵", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "oper",
+      "meaning": "运行",
+      "entries": [
+        {
+          "word": "opera",
+          "meaning": "n.歌剧",
+          "segments": [
+            { "text": "oper", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "a", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "运行", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "operate",
+          "meaning": "v.运转；动手术",
+          "segments": [
+            { "text": "oper", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "运行", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "operator",
+          "meaning": "n.操作员",
+          "segments": [{ "text": "operator", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "operation",
+          "meaning": "n.操作；经营",
+          "segments": [{ "text": "operation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "operational",
+          "meaning": "a.操作的；运营的",
+          "segments": [{ "text": "operational", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "cooperate",
+          "meaning": "v.合作",
+          "segments": [
+            { "text": "co", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "oper", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "运行", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "cooperator",
+          "meaning": "n.合作者",
+          "segments": [{ "text": "cooperator", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "cooperation",
+          "meaning": "n.合作",
+          "segments": [{ "text": "cooperation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "copy",
+          "meaning": "v.复制；抄袭 n.复制品",
+          "segments": [
+            { "text": "c", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "op", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "y", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "工作", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "opt",
+      "meaning": "选择",
+      "entries": [
+        {
+          "word": "adopt",
+          "meaning": "v.选择；采纳；领养",
+          "segments": [
+            { "text": "ad", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "opt", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "选择", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "adoption",
+          "meaning": "n.选择；采纳；领养",
+          "segments": [{ "text": "adoption", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "option",
+          "meaning": "n.选择；选项",
+          "segments": [
+            { "text": "opt", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "选择", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "optional",
+          "meaning": "a.可选择的；非强制的",
+          "segments": [{ "text": "optional", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "op opt",
+      "meaning": "光",
+      "entries": [
+        {
+          "word": "optic",
+          "meaning": "a.光学的；视觉的",
+          "segments": [
+            { "text": "op", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "tic", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "光", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "optics",
+          "meaning": "n.光学",
+          "segments": [{ "text": "optics", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "optim",
+      "meaning": "最好",
+      "entries": [
+        {
+          "word": "optimistic",
+          "meaning": "a.乐观的",
+          "segments": [
+            { "text": "optim", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "istic", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "最好", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "optimism",
+          "meaning": "n.乐观主义",
+          "segments": [{ "text": "optimism", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "optimist",
+          "meaning": "n.乐观主义者",
+          "segments": [{ "text": "optimist", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "optimize",
+          "meaning": "v.最优化",
+          "segments": [{ "text": "optimize", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "optimization",
+          "meaning": "n.最优化",
+          "segments": [{ "text": "optimization", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "optimal",
+          "meaning": "a.最优的",
+          "segments": [{ "text": "optimal", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "order ordin",
+      "meaning": "秩序",
+      "entries": [
+        {
+          "word": "order",
+          "meaning": "n.顺序；命令；规则 v.命令；订购",
+          "segments": [
+            { "text": "order", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "秩序", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "disorder",
+          "meaning": "n.混乱",
+          "segments": [{ "text": "disorder", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "ordinary",
+          "meaning": "a.普通的",
+          "segments": [
+            { "text": "ordin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ary", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "秩序", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "extraordinary",
+          "meaning": "a.超乎寻常的",
+          "segments": [{ "text": "extraordinary", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "subordinate",
+          "meaning": "v.使服从 a.低级的 n.下属",
+          "segments": [
+            { "text": "sub", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ordin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "下面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "秩序", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "coordinate",
+          "meaning": "v.使协调",
+          "segments": [
+            { "text": "co", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ordin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "秩序", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "ori orig",
+      "meaning": "上升→开始",
+      "entries": [
+        {
+          "word": "origin",
+          "meaning": "n.起源；出身",
+          "segments": [
+            { "text": "orig", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "in", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "开始", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "original",
+          "meaning": "a.原始的；最初的",
+          "segments": [{ "text": "original", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "originate",
+          "meaning": "v.起源",
+          "segments": [{ "text": "originate", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "orient",
+          "meaning": "n.东方",
+          "segments": [
+            { "text": "ori", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "上升", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "oriental",
+          "meaning": "a.东方的",
+          "segments": [{ "text": "oriental", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "or(a)",
+      "meaning": "说",
+      "entries": [
+        {
+          "word": "adore",
+          "meaning": "v.爱慕；崇拜",
+          "segments": [
+            { "text": "ad", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "or", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "说", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "oral",
+          "meaning": "a.口头的",
+          "segments": [
+            { "text": "or", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "说", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "oracle",
+          "meaning": "n.神谕",
+          "segments": [
+            { "text": "or", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "acle", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "说", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "orn",
+      "meaning": "装饰",
+      "entries": [
+        {
+          "word": "ornate",
+          "meaning": "a.华丽的",
+          "segments": [
+            { "text": "orn", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "装饰", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "ornament",
+          "meaning": "n.装饰品",
+          "segments": [{ "text": "ornament", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "adorn",
+          "meaning": "v.装饰",
+          "segments": [
+            { "text": "ad", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "orn", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "装饰", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "adornment",
+          "meaning": "n.装饰",
+          "segments": [{ "text": "adornment", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "olesc",
+      "meaning": "成长",
+      "entries": [
+        {
+          "word": "adolescent",
+          "meaning": "n.青少年 a.青春期的",
+          "segments": [
+            { "text": "ad", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "olesc", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "成长", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "adolescence",
+          "meaning": "n.青春期",
+          "segments": [{ "text": "adolescence", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "海洋",
+      "meaning": "海洋",
+      "entries": [
+        {
+          "word": "ocean",
+          "meaning": "n.海洋",
+          "segments": [
+            { "text": "ocean", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "海洋", "role": "meaning" },
+            { "text": "=", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "Oceania",
+          "meaning": "n.大洋洲",
+          "segments": [
+            { "text": "ocean", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ia", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "海洋", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "organ",
+      "meaning": "运行",
+      "entries": [
+        {
+          "word": "organize",
+          "meaning": "v.组织；筹备；安排",
+          "segments": [
+            { "text": "organ", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ize", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "运行", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "organization",
+          "meaning": "n.组织；机构；团体",
+          "segments": [{ "text": "organization", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "organ",
+          "meaning": "n.器官；机关；机构",
+          "segments": [
+            { "text": "organ", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "运行", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "organic",
+          "meaning": "a.有机的；器官的",
+          "segments": [{ "text": "organic", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "ova",
+      "meaning": "卵",
+      "entries": [
+        {
+          "word": "oval",
+          "meaning": "n.椭圆 a.椭圆形的",
+          "segments": [
+            { "text": "ova", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "l", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "卵", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "out",
+      "meaning": "外出",
+      "entries": [
+        {
+          "word": "output",
+          "meaning": "n.输出；产量",
+          "segments": [
+            { "text": "out", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "put", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "外", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "outlook",
+          "meaning": "n.风景；观点",
+          "segments": [
+            { "text": "out", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "look", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "外", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "看", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "outcome",
+          "meaning": "n.结果",
+          "segments": [
+            { "text": "out", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "come", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "外", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "来", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "outlet",
+          "meaning": "n.出路；排放途径",
+          "segments": [
+            { "text": "out", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "let", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "外", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "允许", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "over",
+      "meaning": "在…之上",
+      "entries": [
+        {
+          "word": "overlook",
+          "meaning": "v.忽略",
+          "segments": [
+            { "text": "over", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "look", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "在…之上", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "看", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "overseas",
+          "meaning": "a.海外的；国外的 ad.在国外；在海外",
+          "segments": [
+            { "text": "over", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "sea", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "s", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "在…之上", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "海", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "overall",
+          "meaning": "a.总体的；全面的",
+          "segments": [
+            { "text": "over", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "all", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "在…之上", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "全部", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "overwhelm",
+          "meaning": "v.淹没；压倒",
+          "segments": [
+            { "text": "over", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "whelm", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "在…之上", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "推翻", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "",
+      "meaning": "单列",
+      "entries": [
+        {
+          "word": "ownership",
+          "meaning": "n.所有权；产权",
+          "segments": [
+            { "text": "own", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "er", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ship", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "拥有", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "offspring",
+          "meaning": "n.子女子孙；后代；产物",
+          "segments": [
+            { "text": "off", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "spring", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "离开", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "起源", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "obesity",
+          "meaning": "n.肥胖（症）",
+          "segments": [
+            { "text": "obes", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ity", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "肥胖的", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "pon pos pound posit",
+      "meaning": "放",
+      "entries": [
+        {
+          "word": "pose",
+          "meaning": "n.v.(摆)姿势",
+          "segments": [
+            { "text": "pos", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "postpone",
+          "meaning": "v.延期",
+          "segments": [
+            { "text": "post", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pon", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "后", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "compose",
+          "meaning": "v.创作",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "一起", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "composition",
+          "meaning": "n.作品；作曲",
+          "segments": [{ "text": "composition", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "composer",
+          "meaning": "n.创作者",
+          "segments": [{ "text": "composer", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "expose",
+          "meaning": "v.使暴露；揭露",
+          "segments": [
+            { "text": "ex", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "exposed",
+          "meaning": "a.暴露的",
+          "segments": [{ "text": "exposed", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "exposure",
+          "meaning": "n.暴露",
+          "segments": [{ "text": "exposure", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "propose",
+          "meaning": "v.提议",
+          "segments": [
+            { "text": "pro", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "前", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "proposal",
+          "meaning": "n.提议",
+          "segments": [{ "text": "proposal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "proposition",
+          "meaning": "n.命题；提议",
+          "segments": [{ "text": "proposition", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "suppose",
+          "meaning": "v.假设；猜想",
+          "segments": [
+            { "text": "sup", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "position",
+          "meaning": "n.位置",
+          "segments": [
+            { "text": "posit", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "放", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "positive",
+          "meaning": "a.积极的",
+          "segments": [
+            { "text": "posit", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ive", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "放", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "deposit",
+          "meaning": "v.n.沉淀；储蓄",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "posit", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "oppose",
+          "meaning": "v.反对",
+          "segments": [
+            { "text": "op", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "对面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "opposite",
+          "meaning": "a.对立的；相反的",
+          "segments": [{ "text": "opposite", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "opponent",
+          "meaning": "n.对手",
+          "segments": [{ "text": "opponent", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "opposition",
+          "meaning": "n.反对",
+          "segments": [{ "text": "opposition", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "component",
+          "meaning": "n.成分；组成部分",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pon", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "一起", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "compound",
+          "meaning": "v.混合；n.混合物",
+          "segments": [{ "text": "compound", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "purpose",
+          "meaning": "n.目的",
+          "segments": [
+            { "text": "pur", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "前面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "impose",
+          "meaning": "v.把…强加于",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pose", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "里", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "dispose",
+          "meaning": "v.处理",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pos", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "放", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "disposal",
+          "meaning": "n.处理",
+          "segments": [{ "text": "disposal", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "preposition",
+          "meaning": "n.介词",
+          "segments": [
+            { "text": "pre", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "position", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "前", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "位置", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "plex plic ply",
+      "meaning": "弯折",
+      "entries": [
+        {
+          "word": "complex",
+          "meaning": "a.复杂的；合成的",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plex", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折叠", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "complexity",
+          "meaning": "n.复杂度",
+          "segments": [{ "text": "complexity", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "reply",
+          "meaning": "v.回复",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "往回", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "imply",
+          "meaning": "v.暗示",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "implied",
+          "meaning": "a.暗示的",
+          "segments": [{ "text": "implied", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "apply",
+          "meaning": "v.应用；申请",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "applicant",
+          "meaning": "n.申请人",
+          "segments": [{ "text": "applicant", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "application",
+          "meaning": "n.申请；应用",
+          "segments": [{ "text": "application", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "complicate",
+          "meaning": "v.使复杂化",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plic", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "完全", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "complicated",
+          "meaning": "a.复杂的",
+          "segments": [{ "text": "complicated", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "complication",
+          "meaning": "n.困难",
+          "segments": [{ "text": "complication", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "explicit",
+          "meaning": "a.详述的",
+          "segments": [
+            { "text": "ex", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plic", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "it", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "折叠", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "multiply",
+          "meaning": "v.乘",
+          "segments": [
+            { "text": "multi", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "多", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折叠", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "implicate",
+          "meaning": "v.牵连；涉及",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plic", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "implication",
+          "meaning": "n.牵连；涉及",
+          "segments": [{ "text": "implication", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "comply",
+          "meaning": "v.顺从",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "弯折", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "compliment",
+          "meaning": "n.v.恭维",
+          "segments": [{ "text": "compliment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "complimentary",
+          "meaning": "a.恭维的",
+          "segments": [{ "text": "complimentary", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "perplex",
+          "meaning": "v.使困惑",
+          "segments": [
+            { "text": "per", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plex", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "完全", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "折", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "display",
+          "meaning": "n.v.陈列；展示；表演",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "play", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "折叠", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "part",
+      "meaning": "部分",
+      "entries": [
+        {
+          "word": "partner",
+          "meaning": "n.合伙人",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ner", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "apartment",
+          "meaning": "n.公寓；房间",
+          "segments": [
+            { "text": "a", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ment", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "apart",
+          "meaning": "a.分离的",
+          "segments": [{ "text": "apart", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "particular",
+          "meaning": "a.个别的；特别的",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "cular", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "particularly",
+          "meaning": "ad.特别",
+          "segments": [{ "text": "particularly", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "participate",
+          "meaning": "v.参与",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "cip", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "拿", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "participant",
+          "meaning": "n.参与者",
+          "segments": [{ "text": "participant", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "depart",
+          "meaning": "v.离开",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "part", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "离开", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "departure",
+          "meaning": "n.离开；启程",
+          "segments": [{ "text": "departure", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "department",
+          "meaning": "n.部；系",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ment", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "离开", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "partly",
+          "meaning": "ad.部分地；一定程度上",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ly", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "ad.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "parcel",
+          "meaning": "n.包裹",
+          "segments": [
+            { "text": "parc", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "el", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "同part", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "impart",
+          "meaning": "v.告知",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "part", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "里", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "counterpart",
+          "meaning": "n.对等地位的人或物",
+          "segments": [
+            { "text": "counter", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "part", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "对应的", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "particle",
+          "meaning": "n.微粒；粒子",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "cle", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "partial",
+          "meaning": "a.部分的；不公平的",
+          "segments": [
+            { "text": "part", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "partially",
+          "meaning": "ad.部分地",
+          "segments": [{ "text": "partially", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "impartial",
+          "meaning": "a.公证的",
+          "segments": [{ "text": "impartial", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "proportion",
+          "meaning": "n.比例；部分",
+          "segments": [
+            { "text": "pro", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "port", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "前面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "portion",
+          "meaning": "n.部分",
+          "segments": [
+            { "text": "port", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "部分", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "press",
+      "meaning": "压",
+      "entries": [
+        {
+          "word": "press",
+          "meaning": "v.压 n.出版社",
+          "segments": [
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "pressure",
+          "meaning": "n.压力",
+          "segments": [{ "text": "pressure", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "depress",
+          "meaning": "v.使低落；下压",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "向下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "depressed",
+          "meaning": "a.低落的；经济萧条的",
+          "segments": [{ "text": "depressed", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "depressive",
+          "meaning": "a.沮丧的",
+          "segments": [{ "text": "depressive", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "depression",
+          "meaning": "n.沮丧",
+          "segments": [{ "text": "depression", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "impress",
+          "meaning": "v.压印；留下深刻印象",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "进去", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "impression",
+          "meaning": "n.印象",
+          "segments": [{ "text": "impression", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "impressive",
+          "meaning": "a.令人印象深刻的",
+          "segments": [{ "text": "impressive", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "express",
+          "meaning": "v.表达；快递 n.快递",
+          "segments": [
+            { "text": "ex", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "expression",
+          "meaning": "n.表达",
+          "segments": [{ "text": "expression", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "suppress",
+          "meaning": "v.镇压",
+          "segments": [
+            { "text": "sup", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "compress",
+          "meaning": "v.压缩",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "press", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "压", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "pet pit",
+      "meaning": "追求",
+      "entries": [
+        {
+          "word": "appetite",
+          "meaning": "n.欲望；食欲",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ite", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "追求", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appetizing",
+          "meaning": "a.让人有食欲的",
+          "segments": [{ "text": "appetizing", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "competition",
+          "meaning": "n.竞争",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "tion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "共同", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "追求", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "competitor",
+          "meaning": "n.竞争者",
+          "segments": [{ "text": "competitor", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "compete",
+          "meaning": "v.竞争",
+          "segments": [{ "text": "compete", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "competent",
+          "meaning": "a.有能力的",
+          "segments": [{ "text": "competent", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "competency",
+          "meaning": "competence=n.能力",
+          "segments": [{ "text": "competency", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "incompetent",
+          "meaning": "a.无能的",
+          "segments": [{ "text": "incompetent", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "petition",
+          "meaning": "n.请愿",
+          "segments": [
+            { "text": "pet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "tion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "追求", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "impetus",
+          "meaning": "n.促进；动力",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "us", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "追求", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "perpetual",
+          "meaning": "a.永续的",
+          "segments": [
+            { "text": "per", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ual", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "贯穿", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "追求", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "preci prais",
+      "meaning": "价值",
+      "entries": [
+        {
+          "word": "price",
+          "meaning": "n.价格",
+          "segments": [
+            { "text": "preci", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "价值", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "praise",
+          "meaning": "n.v.称赞；表扬",
+          "segments": [
+            { "text": "prais", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "价值", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "precious",
+          "meaning": "a.珍贵的",
+          "segments": [
+            { "text": "preci", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ous", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "价值", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appreciate",
+          "meaning": "v.鉴赏；感激",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "preci", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "价值", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appreciation",
+          "meaning": "n.鉴赏；感激",
+          "segments": [{ "text": "appreciation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "appreciable",
+          "meaning": "a.可估计的",
+          "segments": [{ "text": "appreciable", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "depreciate",
+          "meaning": "v.贬值；折旧",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "preci", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "向下", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "价值", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "depreciation",
+          "meaning": "n.贬值；折旧",
+          "segments": [{ "text": "depreciation", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "par",
+      "meaning": "旁边→平等；对立",
+      "entries": [
+        {
+          "word": "compare",
+          "meaning": "v.比较；类比",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "彼此", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "平等", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "comparison",
+          "meaning": "n.比较；类似",
+          "segments": [{ "text": "comparison", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "comparable",
+          "meaning": "a.类似的；可比较的",
+          "segments": [{ "text": "comparable", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "comparative",
+          "meaning": "n.比较级；对手 a.相对的；比较的",
+          "segments": [{ "text": "comparative", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "pardon",
+          "meaning": "n.原谅",
+          "segments": [
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "don", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "平等", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "给予", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "disparate",
+          "meaning": "a.完全不同的",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "平等", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "separate",
+          "meaning": "a.独立的；分开的 v.使分开",
+          "segments": [
+            { "text": "se", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "分开", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "apparent",
+          "meaning": "a.显然的；表面上的",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "transparent",
+          "meaning": "a.透明的",
+          "segments": [
+            { "text": "trans", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ent", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "穿过", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边（遮挡）", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "prepare",
+          "meaning": "v.准备",
+          "segments": [
+            { "text": "pre", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "提前", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "preparation",
+          "meaning": "n.准备",
+          "segments": [{ "text": "preparation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "repair",
+          "meaning": "v.修复；修理",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pair", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "再", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appear",
+          "meaning": "v.出现；呈现",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pear", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "旁边", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appearance",
+          "meaning": "n.出现",
+          "segments": [{ "text": "appearance", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "parallel",
+          "meaning": "a.平行的；相似的",
+          "segments": [
+            { "text": "par", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "allel", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "旁边", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "另一个", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "paradox",
+          "meaning": "n.矛盾的人或事；悖论",
+          "segments": [
+            { "text": "para", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "dox", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "对立", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "观点", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "parachute",
+          "meaning": "n.降落伞 v.跳伞；空投",
+          "segments": [
+            { "text": "para", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "chute", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "旁边", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "降落", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "paradise",
+          "meaning": "n.天堂",
+          "segments": [
+            { "text": "para", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "dise", "role": "latin" },
+            { "text": "=", "role": "link" },
+            { "text": "旁边", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "建造", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "point punct pung",
+      "meaning": "点",
+      "entries": [
+        {
+          "word": "point",
+          "meaning": "n.点；分数 v.指向",
+          "segments": [
+            { "text": "point", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "点", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "punctual",
+          "meaning": "a.准时的",
+          "segments": [
+            { "text": "punct", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ual", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "点", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "punctuation",
+          "meaning": "n.标点符号",
+          "segments": [{ "text": "punctuation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "appoint",
+          "meaning": "v.任命；制定",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "point", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "点", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "appointment",
+          "meaning": "n.任命；约会",
+          "segments": [{ "text": "appointment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "disappoint",
+          "meaning": "v.令人失望",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "appoint", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "任命", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "disappointment",
+          "meaning": "n.失望",
+          "segments": [{ "text": "disappointment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "disappointing",
+          "meaning": "a.令人失望的",
+          "segments": [{ "text": "disappointing", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "disappointed",
+          "meaning": "a.失望的",
+          "segments": [{ "text": "disappointed", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "punch",
+          "meaning": "v.n.打孔；猛击",
+          "segments": [
+            { "text": "punct", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "点", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "ple plent plet",
+      "meaning": "满的 装满",
+      "entries": [
+        {
+          "word": "plenty",
+          "meaning": "n.充分；丰富 a.足够的",
+          "segments": [
+            { "text": "plen", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ty", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "满", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "complete",
+          "meaning": "a.完整的；彻底地 v.完成",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "plet", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "完全", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "装", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "complement",
+          "meaning": "n.补充",
+          "segments": [{ "text": "complement", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "complementary",
+          "meaning": "a.互补的",
+          "segments": [{ "text": "complementary", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "completion",
+          "meaning": "n.完成",
+          "segments": [{ "text": "completion", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "supply",
+          "meaning": "v.供给",
+          "segments": [
+            { "text": "sup", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ply", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "下面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "装满", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "supplement",
+          "meaning": "n.增补的东西",
+          "segments": [{ "text": "supplement", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "implement",
+          "meaning": "v.执行 n.工具",
+          "segments": [
+            { "text": "im", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ple", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ment", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "进入", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "装满", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "accomplish",
+          "meaning": "v.完成",
+          "segments": [
+            { "text": "ac", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pl", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ish", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "装满", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "accomplishment",
+          "meaning": "n.成就",
+          "segments": [{ "text": "accomplishment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "multiple",
+          "meaning": "多重的",
+          "segments": [
+            { "text": "multi", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "ple", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "多", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "装入/折叠", "role": "meaning" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "prim prem pri prin",
+      "meaning": "第一",
+      "entries": [
+        {
+          "word": "primitive",
+          "meaning": "a.原始的；早期的",
+          "segments": [
+            { "text": "prim", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "i", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "tive", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "primary",
+          "meaning": "a.主要的；最初的",
+          "segments": [
+            { "text": "prim", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ary", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "principal",
+          "meaning": "a.最重要的",
+          "segments": [
+            { "text": "prin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "cip", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "al", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "抓", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "prior",
+          "meaning": "a.优先的；在前的",
+          "segments": [
+            { "text": "pri", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "or", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "priority",
+          "meaning": "n.优先；优先权",
+          "segments": [{ "text": "priority", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "prime",
+          "meaning": "a.首要的；最好的",
+          "segments": [
+            { "text": "prim", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "prince",
+          "meaning": "n.王子",
+          "segments": [
+            { "text": "prin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ce", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "principle",
+          "meaning": "n.原则",
+          "segments": [
+            { "text": "prin", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "cip", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "le", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "第一", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "抓", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "put",
+      "meaning": "思考",
+      "entries": [
+        {
+          "word": "compute",
+          "meaning": "计算",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "put", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "思考", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "computer",
+          "meaning": "n.计算机",
+          "segments": [{ "text": "computer", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "reputation",
+          "meaning": "n.名声",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "put", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ation", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "反复", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "思考", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "dispute",
+          "meaning": "n.v.争论；怀疑",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "put", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "思考", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "repute",
+          "meaning": "n.名誉",
+          "segments": [
+            { "text": "re", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "put", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "反复", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "思考", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "reputed",
+          "meaning": "a.名誉好的",
+          "segments": [{ "text": "reputed", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "pend pens",
+      "meaning": "称重→花费",
+      "entries": [
+        {
+          "word": "expense",
+          "meaning": "n.开支",
+          "segments": [
+            { "text": "ex", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "e", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "花费", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "expensive",
+          "meaning": "a.昂贵的",
+          "segments": [{ "text": "expensive", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "expend",
+          "meaning": "v.花费",
+          "segments": [{ "text": "expend", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "expenditure",
+          "meaning": "n.支出",
+          "segments": [{ "text": "expenditure", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "pension",
+          "meaning": "n.津贴",
+          "segments": [
+            { "text": "pens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "花费", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "pence",
+          "meaning": "n.便士（penny的复数）",
+          "segments": [{ "text": "pence", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "compensate",
+          "meaning": "v.补偿",
+          "segments": [
+            { "text": "com", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ate", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "同样", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "称量", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "v.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "depend",
+          "meaning": "v.依靠",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pend", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "悬挂", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "independent",
+          "meaning": "a.独立的",
+          "segments": [{ "text": "independent", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "dependent",
+          "meaning": "a.依赖的",
+          "segments": [{ "text": "dependent", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "independence",
+          "meaning": "n.独立",
+          "segments": [{ "text": "independence", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "dependable",
+          "meaning": "a.可靠的",
+          "segments": [{ "text": "dependable", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "suspension",
+          "meaning": "n.暂停；中止",
+          "segments": [
+            { "text": "sus", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pen", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "sion", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "下面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "挂", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "suspend",
+          "meaning": "v.暂停；悬挂",
+          "segments": [{ "text": "suspend", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "appendix",
+          "meaning": "n.附录；阑尾",
+          "segments": [
+            { "text": "ap", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pend", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "ix", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "to", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "悬挂", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "n.", "role": "pos" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "dispensable",
+          "meaning": "a.可有可无的",
+          "segments": [
+            { "text": "dis", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "pens", "role": "root" },
+            { "text": "+", "role": "link" },
+            { "text": "able", "role": "affix" },
+            { "text": "=", "role": "link" },
+            { "text": "×", "role": "link" },
+            { "text": "+", "role": "link" },
+            { "text": "悬挂", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "a.", "role": "pos" }
+          ],
+          "memory": ""
+        }
+      ]
+    },
+    {
+      "root": "ploy ploit",
+      "meaning": "参与",
+      "entries": [
+        {
+          "word": "employ",
+          "meaning": "v.雇佣",
+          "segments": [
+            { "text": "em", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ploy", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "里面", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "参与", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "employment",
+          "meaning": "n.雇佣",
+          "segments": [{ "text": "employment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "employer",
+          "meaning": "n.雇主",
+          "segments": [{ "text": "employer", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "employee",
+          "meaning": "n.雇员",
+          "segments": [{ "text": "employee", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "unemployment",
+          "meaning": "n.失业",
+          "segments": [{ "text": "unemployment", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "exploit",
+          "meaning": "v.利用",
+          "segments": [
+            { "text": "ex", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ploit", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "out", "role": "latin" },
+            { "text": "+", "role": "link" },
+            { "text": "参与", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "exploitation",
+          "meaning": "n.利用",
+          "segments": [{ "text": "exploitation", "role": "root" }],
+          "memory": ""
+        },
+        {
+          "word": "deploy",
+          "meaning": "v.展开；部署",
+          "segments": [
+            { "text": "de", "role": "affix" },
+            { "text": "+", "role": "link" },
+            { "text": "ploy", "role": "root" },
+            { "text": "=", "role": "link" },
+            { "text": "加强", "role": "meaning" },
+            { "text": "+", "role": "link" },
+            { "text": "参与", "role": "meaning" }
+          ],
+          "memory": ""
+        },
+        {
+          "word": "deployment",
+          "meaning": "n.部署",
+          "segments": [{ "text": "deployment", "role": "root" }],
+          "memory": ""
+        }
+      ]
+    }
+  ]
+}

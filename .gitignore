@@ -1,0 +1,37 @@
+# 依赖与构建产物
+node_modules
+dist
+dist-ssr
+.smoke
+*.local
+.npm-install.log
+
+# 编辑器 / 系统
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志与缓存
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# E2E 验收产物（截图 / 临时浏览器 profile）
+.e2e
+
+# 数据备份与临时文件（不入库）
+data-backup-*
+_ev_*
+_qa_*
+_review_*
+scripts/_*
+.e2e

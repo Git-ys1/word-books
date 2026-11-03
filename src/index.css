@@ -1,0 +1,57 @@
+/* Tailwind 三层指令 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- 全局基础样式：手机优先 ---------- */
+@layer base {
+  html {
+    /* 禁止 iOS 横竖屏切换时字号自动放大 */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-900 font-sans antialiased;
+    /* 安全区：刘海屏 / 底部手势条 */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    /* 手机上禁用长按选中与高亮，模拟原生 App 手感 */
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
+  /* 按钮统一去掉原生样式，交互只靠我们自己写的状态 */
+  button {
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+@layer components {
+  /* 主内容容器：手机全宽，桌面最大 640px 居中
+     - min-w-0 防止 flex 子项把容器撑破
+     - overflow-x-clip 兜底，避免任何元素溢出让整页横向滚动 */
+  .app-shell {
+    @apply mx-auto w-full min-w-0 max-w-[640px] overflow-x-clip px-4 sm:px-6;
+  }
+
+  /* 卡片：白底 + 细边 + 柔和投影 */
+  .card {
+    @apply rounded-3xl border border-ink-100 bg-white shadow-card;
+  }
+
+  /* 底部两个大按钮（认识 / 不认识） */
+  .btn-verdict {
+    @apply flex h-14 flex-1 items-center justify-center rounded-2xl text-[17px] font-semibold
+      transition-all duration-150 active:scale-[.97];
+  }
+}
+
+/* 隐藏滚动条但保留滚动能力 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
