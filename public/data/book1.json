@@ -3535,7 +3535,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3572,7 +3572,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3625,7 +3625,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3662,7 +3662,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3675,7 +3675,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3712,7 +3712,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3765,7 +3765,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3810,7 +3810,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3847,7 +3847,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3884,7 +3884,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3897,7 +3897,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3958,7 +3958,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -3995,7 +3995,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4008,7 +4008,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4045,7 +4045,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4082,7 +4082,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4119,7 +4119,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4156,7 +4156,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4193,7 +4193,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4207,14 +4207,10 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形向右伸展的事物",
-       "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形向右伸展的事物",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4251,7 +4247,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4288,7 +4284,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4341,7 +4337,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4394,7 +4390,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4415,7 +4411,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4452,7 +4448,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4465,7 +4461,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4502,7 +4498,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4515,7 +4511,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4528,7 +4524,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4565,7 +4561,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -4602,7 +4598,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     }
    ]
@@ -6877,7 +6873,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -6914,17 +6910,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "block",
      "meaning": "n.块；街区；障碍物 v.阻塞；阻止",
      "segments": [
-      {
-       "text": "来自balk",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -6934,8 +6926,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "来自balk",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -6972,7 +6964,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -7009,7 +7001,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -7038,7 +7030,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -7075,17 +7067,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "burst",
      "meaning": "n.v.爆炸；爆裂；突发",
      "segments": [
-      {
-       "text": "来自break",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -7095,8 +7083,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "来自break",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -7117,7 +7105,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -7154,17 +7142,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "bill",
      "meaning": "n.账单；法案 v.开账单",
      "segments": [
-      {
-       "text": "同源于ball指小蜡球，用来蜡封文件",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -7174,18 +7158,14 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "同源于ball指小蜡球，用来蜡封文件",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "boom",
      "meaning": "n.激增；繁荣 v.繁荣发展",
      "segments": [
-      {
-       "text": "拟声爆破",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -7195,18 +7175,14 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声爆破",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "boost",
      "meaning": "v.促进",
      "segments": [
-      {
-       "text": "疑似来自boom",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -7216,8 +7192,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "疑似来自boom",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     }
    ]
@@ -16027,7 +16003,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16048,7 +16024,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16069,7 +16045,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16082,7 +16058,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16095,7 +16071,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16116,7 +16092,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16129,7 +16105,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16166,7 +16142,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16203,7 +16179,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16240,17 +16216,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
      "word": "cue",
      "meaning": "n.提示；暗示",
      "segments": [
-      {
-       "text": "发音同Q",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -16260,8 +16232,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "发音同Q",
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16306,7 +16278,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16319,7 +16291,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16356,7 +16328,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16393,7 +16365,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16414,7 +16386,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16451,7 +16423,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16488,7 +16460,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16525,7 +16497,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16562,7 +16534,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16575,7 +16547,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16612,7 +16584,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16649,7 +16621,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16686,7 +16658,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16723,7 +16695,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -16736,7 +16708,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     }
    ]
@@ -19588,7 +19560,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19609,7 +19581,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19630,7 +19602,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19667,7 +19639,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19728,7 +19700,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19765,7 +19737,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19810,7 +19782,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19863,7 +19835,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19900,7 +19872,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19921,7 +19893,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19934,7 +19906,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -19971,7 +19943,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20008,7 +19980,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20045,7 +20017,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20082,7 +20054,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20119,7 +20091,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20132,7 +20104,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     },
     {
@@ -20169,7 +20141,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列词（无共同词根）"
     }
    ]
@@ -21877,7 +21849,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -21926,7 +21898,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -21983,7 +21955,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -22042,7 +22014,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22095,7 +22067,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22152,7 +22124,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22221,7 +22193,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22270,7 +22242,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22315,7 +22287,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22372,7 +22344,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22397,7 +22369,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -22460,7 +22432,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22513,7 +22485,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22578,7 +22550,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22603,7 +22575,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22652,7 +22624,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22701,7 +22673,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -22760,7 +22732,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22809,7 +22781,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22834,7 +22806,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -22891,7 +22863,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -31869,7 +31841,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -31934,7 +31906,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -31983,7 +31955,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32024,7 +31996,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32073,7 +32045,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32122,7 +32094,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32171,7 +32143,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32212,7 +32184,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32261,7 +32233,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32318,7 +32290,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32367,7 +32339,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32416,7 +32388,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32465,7 +32437,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -32514,7 +32486,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -36449,7 +36421,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36463,10 +36435,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "词源同glacier",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -36493,8 +36461,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "词源同glacier",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36508,10 +36476,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "词源同grab",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -36538,8 +36502,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "词源同grab",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36580,7 +36544,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36633,7 +36597,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36682,7 +36646,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36731,7 +36695,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36780,7 +36744,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36809,7 +36773,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -36858,7 +36822,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -38842,7 +38806,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -38891,7 +38855,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -38936,7 +38900,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -38985,7 +38949,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39010,7 +38974,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39059,7 +39023,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39100,7 +39064,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39157,7 +39121,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39206,7 +39170,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39239,7 +39203,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39288,7 +39252,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39337,7 +39301,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -39386,7 +39350,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -40613,7 +40577,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40662,7 +40626,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40711,7 +40675,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40776,7 +40740,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40841,7 +40805,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40866,7 +40830,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40915,7 +40879,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -40972,7 +40936,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -41037,7 +41001,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -41102,7 +41066,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -42514,7 +42478,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -42563,7 +42527,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -42588,7 +42552,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -42739,7 +42703,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -49572,10 +49536,6 @@
        "role": "link"
       },
       {
-       "text": "同源lead",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -49604,7 +49564,7 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
+     "memory": "同源lead",
      "root": "lead",
      "rootMeaning": "铅→领导"
     },
@@ -49702,10 +49662,6 @@
        "role": "link"
       },
       {
-       "text": "同源leak",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -49730,8 +49686,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "同源leak",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -49780,7 +49736,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -49813,7 +49769,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -49862,7 +49818,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -49876,10 +49832,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "同源lack",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -49906,8 +49858,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "同源lack",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -49956,7 +49908,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50005,7 +49957,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50054,7 +50006,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50087,7 +50039,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50144,7 +50096,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50209,7 +50161,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50254,7 +50206,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50299,7 +50251,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -50352,7 +50304,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -58949,7 +58901,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -58986,7 +58938,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59043,7 +58995,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59080,7 +59032,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59113,7 +59065,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59154,7 +59106,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -59168,10 +59120,6 @@
      "meaning": "n.主人；大师 v.掌握；精通",
      "segments": [
       {
-       "text": "来自magister",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -59184,8 +59132,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "来自magister",
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59230,17 +59178,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
      "word": "myth",
      "meaning": "n.神话",
      "segments": [
-      {
-       "text": "拟声",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -59254,8 +59198,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声",
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59308,7 +59252,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59349,7 +59293,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59362,7 +59306,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -59375,7 +59319,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -60289,10 +60233,6 @@
      "meaning": "a.幼稚的",
      "segments": [
       {
-       "text": "来自法语",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -60305,7 +60245,7 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
+     "memory": "来自法语",
      "root": "nat nasc nai",
      "rootMeaning": "出生"
     },
@@ -61337,17 +61277,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
      "word": "noble",
      "meaning": "n.a.贵族（的）",
      "segments": [
-      {
-       "text": "词源同know",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -61361,8 +61297,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "词源同know",
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -61399,7 +61335,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -61440,7 +61376,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -61465,7 +61401,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -62644,8 +62580,8 @@
    ]
   },
   {
-   "root": "海洋",
-   "meaning": "",
+   "root": "ocean",
+   "meaning": "海洋",
    "entries": [
     {
      "word": "ocean",
@@ -63258,7 +63194,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -63299,7 +63235,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -63336,7 +63272,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -72708,8 +72644,8 @@
    ]
   },
   {
-   "root": "喝",
-   "meaning": "",
+   "root": "poi",
+   "meaning": "喝",
    "entries": [
     {
      "word": "poison",
@@ -74504,7 +74440,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74553,7 +74489,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74566,7 +74502,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74591,7 +74527,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74616,7 +74552,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74629,7 +74565,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74654,7 +74590,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74679,7 +74615,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74704,7 +74640,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74729,7 +74665,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74770,7 +74706,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74811,7 +74747,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74848,7 +74784,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74873,7 +74809,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74926,7 +74862,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -74963,7 +74899,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75004,7 +74940,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75053,7 +74989,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75086,17 +75022,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
      "word": "pour",
      "meaning": "v.倒；倾斜；倾盆大雨",
      "segments": [
-      {
-       "text": "词源不详",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -75110,8 +75042,8 @@
        "role": "meaning"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "词源不详",
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75148,7 +75080,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -75902,7 +75834,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75939,7 +75871,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -75972,7 +75904,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -77879,7 +77811,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -77920,7 +77852,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -77945,7 +77877,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -77982,7 +77914,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78023,7 +77955,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78064,7 +77996,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78121,7 +78053,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78162,7 +78094,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78211,7 +78143,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78264,7 +78196,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78305,7 +78237,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78346,7 +78278,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78387,7 +78319,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78428,7 +78360,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78469,7 +78401,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78510,7 +78442,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78535,7 +78467,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78560,7 +78492,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78601,7 +78533,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78638,7 +78570,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78663,7 +78595,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78700,7 +78632,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78741,7 +78673,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78778,7 +78710,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     },
     {
@@ -78819,7 +78751,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": null
     }
    ]
@@ -90156,10 +90088,6 @@
        "role": "link"
       },
       {
-       "text": "象形牙齿",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -90176,8 +90104,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90191,10 +90119,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90213,8 +90137,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90228,10 +90152,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90250,8 +90170,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90267,10 +90187,6 @@
        "role": "link"
       },
       {
-       "text": "象形牙齿",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -90287,8 +90203,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90304,10 +90220,6 @@
        "role": "link"
       },
       {
-       "text": "象形牙齿",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -90324,8 +90236,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90339,10 +90251,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90361,8 +90269,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90399,7 +90307,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90413,10 +90321,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90451,8 +90355,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90466,10 +90370,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90488,8 +90388,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90503,10 +90403,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声切分的声音",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90525,8 +90421,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声切分的声音",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90540,10 +90436,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声切分",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90562,8 +90454,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声切分",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90616,7 +90508,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90630,10 +90522,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90652,8 +90540,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90698,7 +90586,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90712,10 +90600,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲的事物",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90734,8 +90618,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲的事物",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90749,10 +90633,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲的事物",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90771,8 +90651,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲的事物",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90809,7 +90689,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90823,10 +90703,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90845,8 +90721,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90860,10 +90736,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90882,8 +90754,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90897,10 +90769,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90919,8 +90787,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90934,10 +90802,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90956,8 +90820,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -90971,10 +90835,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形弯曲",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -90993,8 +90853,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形弯曲",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91031,7 +90891,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91045,10 +90905,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声持续的微弱的气音",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -91067,8 +90923,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声持续的微弱的气音",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91097,7 +90953,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91110,7 +90966,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91139,7 +90995,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91184,7 +91040,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91198,10 +91054,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -91220,8 +91072,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91237,10 +91089,6 @@
        "role": "link"
       },
       {
-       "text": "象形牙齿",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -91257,8 +91105,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91274,10 +91122,6 @@
        "role": "link"
       },
       {
-       "text": "象形牙齿",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -91294,8 +91138,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91309,10 +91153,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形牙齿",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -91331,8 +91171,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形牙齿",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91377,7 +91217,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91430,7 +91270,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91459,7 +91299,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91473,10 +91313,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声切分",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -91495,18 +91331,14 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声切分",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
      "word": "sheer",
      "meaning": "a.完全的；十足的；陡峭的",
      "segments": [
-      {
-       "text": "同源shine",
-       "role": "meaning"
-      },
       {
        "text": "光照",
        "role": "meaning"
@@ -91528,8 +91360,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "同源shine",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91543,10 +91375,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形蛇鳞片",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -91565,8 +91393,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形蛇鳞片",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91603,7 +91431,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91640,7 +91468,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91693,11 +91521,11 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
-     "word": "skeptical=sceptical",
+     "word": "skeptical",
      "meaning": "a.怀疑的",
      "segments": [
       {
@@ -91729,8 +91557,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "另有拼写：sceptical",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91767,7 +91595,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91812,7 +91640,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91857,7 +91685,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -91894,7 +91722,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -97239,10 +97067,6 @@
        "role": "link"
       },
       {
-       "text": "象形十字",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -97259,8 +97083,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形十字",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97297,7 +97121,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97334,7 +97158,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97348,10 +97172,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形十字",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -97370,18 +97190,14 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形十字",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
      "word": "tight",
      "meaning": "a.紧的",
      "segments": [
-      {
-       "text": "来自tie",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -97399,8 +97215,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "来自tie",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97453,17 +97269,13 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
      "word": "tough",
      "meaning": "a.坚强的；强硬的；困难的",
      "segments": [
-      {
-       "text": "来自toh",
-       "role": "meaning"
-      },
       {
        "text": "=",
        "role": "link"
@@ -97481,8 +97293,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "来自toh",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97511,7 +97323,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97525,10 +97337,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声刺破声",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -97547,8 +97355,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声刺破声",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97593,7 +97401,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97607,10 +97415,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形十字",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -97629,8 +97433,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形十字",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97644,10 +97448,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形十字",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -97666,8 +97466,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形十字",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97704,7 +97504,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97741,7 +97541,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97770,7 +97570,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97815,7 +97615,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97860,7 +97660,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -97905,7 +97705,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -98738,7 +98538,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -98783,7 +98583,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -98828,7 +98628,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -98873,7 +98673,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -98918,7 +98718,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -98971,7 +98771,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99024,7 +98824,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99061,7 +98861,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99106,7 +98906,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99151,7 +98951,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99188,7 +98988,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99233,7 +99033,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99278,7 +99078,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -99315,7 +99115,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -105195,10 +104995,6 @@
        "role": "link"
       },
       {
-       "text": "象形山谷",
-       "role": "meaning"
-      },
-      {
        "text": "=",
        "role": "link"
       },
@@ -105215,8 +105011,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形山谷",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105253,7 +105049,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105290,7 +105086,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105327,7 +105123,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -105654,7 +105450,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105683,7 +105479,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105720,7 +105516,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105744,10 +105540,6 @@
        "role": "link"
       },
       {
-       "text": "同源于will希望",
-       "role": "meaning"
-      },
-      {
        "text": "+",
        "role": "link"
       },
@@ -105756,8 +105548,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "同源于will希望",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105786,7 +105578,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105800,10 +105592,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "拟声",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -105822,8 +105610,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "拟声",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105860,7 +105648,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105897,7 +105685,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105911,10 +105699,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形波浪",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -105933,8 +105717,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形波浪",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105979,7 +105763,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -105993,10 +105777,6 @@
       {
        "text": "=",
        "role": "link"
-      },
-      {
-       "text": "象形波浪",
-       "role": "meaning"
       },
       {
        "text": "=",
@@ -106015,8 +105795,8 @@
        "role": "pos"
       }
      ],
-     "memory": "",
-     "root": null,
+     "memory": "象形波浪",
+     "root": "",
      "rootMeaning": "单列"
     },
     {
@@ -106061,7 +105841,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "单列"
     }
    ]
@@ -106104,7 +105884,7 @@
       }
      ],
      "memory": "",
-     "root": null,
+     "root": "",
      "rootMeaning": "Y"
     }
    ]
