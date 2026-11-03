@@ -103,10 +103,16 @@ export default function Home({
   const begin = (groupStartIndex: number) => {
     // 词书还没加载好时不允许开始，避免创建出空会话
     if (!book) return
+    // ★ 必须同时把所选组的 id 写进会话：
+    //   背诵页右上角在没有词根时要靠 session.groupId 反查组标题显示，
+    //   底部模式说明也要用它。只传 startGroupIndex 会让 groupId 落成 null，
+    //   结果右上角空白、底部错显示"全书"。
+    const pickedGroup = book.groups[groupStartIndex]
     const session = createSession({
       book,
       mode,
       startGroupIndex: groupStartIndex,
+      groupId: pickedGroup?.id ?? null,
       retryGap: clampRetryGap(settings.retryGap),
     })
     onStart(session)

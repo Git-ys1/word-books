@@ -264,8 +264,18 @@ export default function ReciteSession({
                   )}
                 </span>
               ) : (
-                <span className="text-[11px] text-ink-300">
-                  {book.groups.find((g) => g.id === session.groupId)?.title ?? ''}
+                /* 没有词根时显示组标题，绝不留空白。
+                   先按 session.groupId 精确找；找不到就用当前词反查它所属的组；
+                   再找不到就显示「第 N 组」兜底。 */
+                <span className="text-[11px] leading-tight text-ink-400">
+                  {(() => {
+                    const byId = book.groups.find((g) => g.id === session.groupId)
+                    if (byId) return byId.title
+                    const byWord = book.groups.find((g) => g.entries.some((x) => x.id === entry.id))
+                    if (byWord) return byWord.title
+                    const idx = book.groups.findIndex((g) => g.entries.some((x) => x.id === entry.id))
+                    return idx >= 0 ? `第 ${idx + 1} 组` : ''
+                  })()}
                 </span>
               )}
             </div>
@@ -361,11 +371,17 @@ export default function ReciteSession({
           </div>
         </div>
 
-        {/* 底部小字：当前模式说明，帮助用户理解自己在什么模式里 */}
+        {/* 底部小字：当前模式说明 + 实际选中的起始组
+            之前 groupShuffle 只判断 groupId 是否存在，导致选了「第30组」仍显示「全书」。
+            现在直接显示所选组标题，让用户清楚自己从哪一组开始。 */}
         <p className="pb-2 pt-3 text-center text-[11.5px] text-ink-400">
-          {session.mode === 'sequential' && '完全顺序 · 严格按词书顺序'}
-          {session.mode === 'groupShuffle' && `组内随机 · ${session.groupId ? '组间顺序固定' : '全书'}`}
-          {session.mode === 'fullRandom' && '完全随机 · 中文释义四选一'}
+          {(() => {
+            const curGroup = book.groups.find((g) => g.id === session.groupId)
+            const suffix = curGroup ? ` · 从「${curGroup.title}」开始` : ''
+            if (session.mode === 'sequential') return `完全顺序 · 严格按词书顺序${suffix}`
+            if (session.mode === 'groupShuffle') return `组内随机 · 组间顺序固定${suffix}`
+            return '完全随机 · 中文释义四选一'
+          })()}
         </p>
       </main>
     </div>
