@@ -71,10 +71,13 @@ export default function App() {
 
   // 已加载词书缓存（bookId -> 结果），避免切换时重复请求
   const [loaded, setLoaded] = useState<Partial<Record<BookId, BookLoadResult>>>({})
-  // 首页要展示两本书的统计，进入时并行预取（浏览器 HTTP 缓存会让二次访问几乎瞬时）
+  // 首页要展示两本书的统计，进入时预取。
+  // 顺序有讲究：book2 体积小（约 240KB）先拉，book1 大（约 930KB）后拉，
+  // 这样手机弱网下也能尽快看到一本书可用，而不是两本都在转圈。
   useEffect(() => {
     let alive = true
-    ;(['book1', 'book2'] as BookId[]).forEach((id) => {
+    const order: BookId[] = ['book2', 'book1']
+    order.forEach((id) => {
       loadBook(id).then((r) => {
         if (alive) setLoaded((prev) => ({ ...prev, [id]: r }))
       })
