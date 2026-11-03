@@ -228,6 +228,60 @@ export function wrongLevel(count: number): 'high' | 'mid' | 'low' {
   return 'low'
 }
 
+/* ============================ 派生分析（图表用） ============================ */
+
+/** 把毫秒时间戳归到 24 小时里的第几小时 */
+export function hourOf(ts: number): number {
+  return new Date(ts).getHours()
+}
+
+/**
+ * 连续打卡天数。
+ *
+ * 口径：从「今天」往前数，只要某天有学习记录就算打卡。
+ * 今天还没学不算断——保留昨天及以前的连击，这样早上打开 App 不会看到「连击清零」被打击。
+ *
+ * 返回 { current, best }：
+ *   current = 当前连击（含今天，若今天没学则从昨天开始算）
+ *   best    = 历史最长连击
+ */
+export function streakOf(daily: Record<string, DailyStat>, todayKey: string): { current: number; best: number } {
+  const keys = Object.keys(daily)
+    .filter((k) => (daily[k]?.newWords ?? 0) > 0 || (daily[k]?.reviews ?? 0) > 0)
+    .sort()
+  if (!keys.length) return { current: 0, best: 0 }
+
+  const has = new Set(keys)
+
+  // ---- 历史最长 ----
+  let best = 1
+  let run = 1
+  for (let i = 1; i < keys.length; i++) {
+    const prev = new Date(keys[i - 1] + 'T00:00:00')
+    const cur = new Date(keys[i] + 'T00:00:00')
+    const diffDays = Math.round((cur.getTime() - prev.getTime()) / 86400000)
+    if (diffDays === 1) {
+      run += 1
+      best = Math.max(best, run)
+    } else {
+      run = 1
+    }
+  }
+
+  // ---- 当前连击：今天有记录就从今天数，没有就从昨天数 ----
+  const todayDate = new Date(todayKey + 'T00:00:00')
+  let cursor = has.has(todayKey) ? 0 : 1
+  let current = 0
+  for (let i = 0; i < 3650; i++) {
+    const d = new Date(todayDate.getTime() - (cursor + i) * 86400000)
+    const key = localDayKey(d.getTime())
+    if (has.has(key)) current += 1
+    else break
+  }
+
+  return { current, best }
+}
+
 /**
  * 读取 store 时做结构修复。
  * localStorage 里的数据可能来自旧版本 / 被手改 / 半截写入，直接信任会白屏，
@@ -243,6 +297,19 @@ export function sanitizeStore(raw: unknown): RecallStore {
   const pickStats = (v: unknown): BookStats => {
     if (!v || typeof v !== 'object') return emptyStats()
     const o = v as Record<string, unknown>
+    // daily 是后加的字段：老数据没有它，这里补成空对象，不让图表报错
+    const dailyRaw = (o.daily ?? {}) as Record<string, unknown>
+    const daily: Record<string, DailyStat> = {}
+    for (const [k, dv] of Object.entries(dailyRaw)) {
+      if (!dv || typeof dv !== 'object') continue
+      const d = dv as Record<string, unknown>
+      daily[k] = {
+        newWords: typeof d.newWords === 'number' && d.newWords > 0 ? Math.floor(d.newWords) : 0,
+        reviews: typeof d.reviews === 'number' && d.reviews > 0 ? Math.floor(d.reviews) : 0,
+        studyMs: typeof d.studyMs === 'number' && d.studyMs > 0 ? Math.floor(d.studyMs) : 0,
+        correct: typeof d.correct === 'number' && d.correct > 0 ? Math.floor(d.correct) : 0,
+      }
+    }
     return {
       learnedIds: Array.isArray(o.learnedIds)
         ? o.learnedIds.filter((x): x is string => typeof x === 'string')
@@ -250,6 +317,7 @@ export function sanitizeStore(raw: unknown): RecallStore {
       reviews: typeof o.reviews === 'number' && Number.isFinite(o.reviews) && o.reviews > 0 ? Math.floor(o.reviews) : 0,
       studyMs: typeof o.studyMs === 'number' && Number.isFinite(o.studyMs) && o.studyMs > 0 ? Math.floor(o.studyMs) : 0,
       updatedAt: typeof o.updatedAt === 'number' && Number.isFinite(o.updatedAt) ? o.updatedAt : 0,
+      daily: pruneDaily(daily),
     }
   }
 

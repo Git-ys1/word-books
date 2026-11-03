@@ -221,3 +221,100 @@ export function Heatmap({ days }: { days: { date: string; value: number }[] }) {
     </div>
   )
 }
+
+/* ============================ 横向进度条排行 ============================ */
+
+/**
+ * 掌握度排行：每条一个横条，用于「词根掌握度」「学习时段分布」等场景。
+ * 左标签、右数值、中间横条，手机上两行字也不会挤。
+ */
+export function SkillBars({
+  items,
+  max: maxOverride,
+  emptyHint,
+}: {
+  items: { label: string; sublabel?: string; value: number; total?: number }[]
+  max?: number
+  emptyHint?: string
+}) {
+  if (!items.length) {
+    return <p className="py-6 text-center text-[12px] text-ink-300">{emptyHint ?? '暂无数据'}</p>
+  }
+  const max = maxOverride ?? Math.max(1, ...items.map((i) => i.total ?? i.value))
+  return (
+    <div className="space-y-2.5">
+      {items.map((it) => {
+        const total = it.total ?? max
+        const pct = total > 0 ? Math.min(100, Math.round((it.value / total) * 100)) : 0
+        return (
+          <div key={it.label}>
+            <div className="mb-1 flex items-baseline justify-between gap-2">
+              <span className="min-w-0 truncate text-[12.5px] text-ink-800">
+                {it.label}
+                {it.sublabel && <span className="ml-1 text-[10.5px] text-ink-400">{it.sublabel}</span>}
+              </span>
+              <span className="shrink-0 text-[11px] tabular-nums text-ink-400">
+                {it.value}
+                {it.total !== undefined && ` / ${it.total}`}
+              </span>
+            </div>
+            <div className="h-1.5 w-full overflow-hidden rounded-full bg-ink-100">
+              <div
+                className="h-full rounded-full bg-gradient-to-r from-brand-500 to-brand-400"
+                style={{ width: `${pct}%`, transition: 'width .5s ease' }}
+              />
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+/* ============================ 时段分布（24 小时柱） ============================ */
+
+/**
+ * 学习时段分布：把一天拆成 4 个时段（早晨 / 上午 / 下午 / 晚上），
+ * 用柱高表示这个时段学了多少词。回答「我什么时候学得最多」。
+ */
+export function TimeOfDayBars({
+  buckets,
+}: {
+  buckets: { label: string; value: number }[]
+}) {
+  const max = Math.max(1, ...buckets.map((b) => b.value))
+  const peakIdx = buckets.reduce((best, b, i) => (b.value > buckets[best].value ? i : best), 0)
+  return (
+    <div>
+      <div className="flex items-end justify-between gap-2" style={{ height: 88 }}>
+        {buckets.map((b, i) => {
+          const h = (b.value / max) * 66
+          const isPeak = i === peakIdx && b.value > 0
+          return (
+            <div key={b.label} className="flex min-w-0 flex-1 flex-col items-center justify-end gap-1.5">
+              <span className="text-[10px] tabular-nums text-ink-400">{b.value > 0 ? b.value : ''}</span>
+              <div
+                className={`w-full rounded-t-lg ${
+                  isPeak ? 'bg-gradient-to-t from-amber-500 to-amber-400' : 'bg-ink-200'
+                }`}
+                style={{ height: Math.max(b.value > 0 ? 4 : 2, h), transition: 'height .4s ease' }}
+              />
+            </div>
+          )
+        })}
+      </div>
+      <div className="mt-1.5 flex justify-between gap-2">
+        {buckets.map((b, i) => (
+          <span
+            key={b.label}
+            className={`min-w-0 flex-1 text-center text-[10px] ${
+              i === peakIdx && b.value > 0 ? 'font-medium text-amber-600' : 'text-ink-300'
+            }`}
+          >
+            {b.label}
+          </span>
+        ))}
+      </div>
+    </div>
+  )
+}

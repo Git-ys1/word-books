@@ -337,6 +337,18 @@ export default function App() {
         <Statistics
           stats={stats.store.stats}
           wrongCounts={{ book1: statsView.book1.wrongCount, book2: statsView.book2.wrongCount }}
+          rootGroups={
+            loaded.book1?.book.groups.map((g) => {
+              // WordGroup 的 title 形如「△ act = 做；驱使」或「散词区（无共同词根）」
+              const title = g.title || ''
+              const m = title.match(/^△\s*(.+?)(?:\s*=\s*(.*))?$/)
+              return {
+                root: m ? (m[1] || '') : '',
+                meaning: m ? (m[2] || '') : '',
+                entries: g.entries.map((e) => ({ id: e.id })),
+              }
+            }) ?? null
+          }
           totals={{ book1: books.book1.count, book2: books.book2.count }}
           bookNames={{ book1: books.book1.name, book2: books.book2.name }}
           onBack={() => setScreen('home')}
