@@ -368,13 +368,23 @@ export default function App() {
                   : 'home'
           }
           onChange={(tab: TabKey) => {
+            // 记住「上次背的是哪本书」：从导航进词书/错词本时默认打开它，
+            // 否则用户刚背完书2，点进去看到的却是书1，等于白学。
+            const lastBookId: BookId = session?.bookId ?? 'book1'
+            // 只有那本书确实有错词时才优先给它，否则挑有错词的那本
+            const wrongBook: BookId =
+              statsView[lastBookId].wrongCount > 0
+                ? lastBookId
+                : statsView.book1.wrongCount >= statsView.book2.wrongCount
+                  ? 'book1'
+                  : 'book2'
             if (tab === 'home') setScreen('home')
             else if (tab === 'stats') setScreen('stats')
             else if (tab === 'wrong') {
-              setWrongBookId('book1')
+              setWrongBookId(wrongBook)
               setScreen('wrong')
             } else {
-              setBrowseBookId('book1')
+              setBrowseBookId(lastBookId)
               setScreen('browse')
             }
           }}
@@ -406,7 +416,18 @@ export default function App() {
       {/* ---------- 课外词书浏览（只读） ---------- */}
       {screen === 'browse' &&
         (browseBook ? (
-          <BookBrowser book={browseBook} onBack={() => setScreen('home')} />
+          <BookBrowser
+            book={browseBook}
+            onBack={() => setScreen('home')}
+            learnedIds={new Set(stats.store.stats[browseBookId]?.learnedIds ?? [])}
+            wrongIds={new Set(stats.store.wrong[browseBookId]?.map((w) => w.id) ?? [])}
+            bookTabs={[
+              { id: 'book1', name: books.book1.name },
+              { id: 'book2', name: books.book2.name },
+            ]}
+            currentBookId={browseBookId}
+            onSwitchBook={(id) => setBrowseBookId(id as BookId)}
+          />
         ) : (
           <LoadingState onBack={() => setScreen('home')} />
         ))}

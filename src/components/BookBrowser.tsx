@@ -19,12 +19,33 @@ import Breakdown from './Breakdown'
 interface Props {
   book: Book
   onBack: () => void
+  /** 已学词的 id 集合，用来做「只看已学 / 未学」筛选 */
+  learnedIds?: Set<string>
+  /** 错词 id 集合，用来做「只看错词」筛选并显示角标 */
+  wrongIds?: Set<string>
+  /** 两本书的名称，用来渲染顶部切换器；不传则不显示切换器 */
+  bookTabs?: { id: string; name: string }[]
+  /** 当前书的 id */
+  currentBookId?: string
+  /** 切换到另一本书 */
+  onSwitchBook?: (id: string) => void
 }
 
 /** 每个分组初始渲染多少词，点「显示更多」再追加 */
 const PAGE_SIZE = 30
 
-export default function BookBrowser({ book, onBack }: Props) {
+/** 筛选模式：全部 / 未学 / 已学 / 错词 */
+type FilterMode = 'all' | 'todo' | 'done' | 'wrong'
+
+export default function BookBrowser({
+  book,
+  onBack,
+  learnedIds,
+  wrongIds,
+  bookTabs,
+  currentBookId,
+  onSwitchBook,
+}: Props) {
   const [query, setQuery] = useState('')
   /** 展开的分组 ID 集合；null 表示还没任何操作，用默认策略（展开第一组） */
   const [openIds, setOpenIds] = useState<Set<string>>(() => new Set(book.groups[0] ? [book.groups[0].id] : []))
@@ -32,10 +53,46 @@ export default function BookBrowser({ book, onBack }: Props) {
   const [shownCount, setShownCount] = useState<Record<string, number>>({})
   /** 当前点开的词条（看拆解） */
   const [detail, setDetail] = useState<WordEntry | null>(null)
+  /** 当前筛选模式 */
+  const [filter, setFilter] = useState<FilterMode>('all')
   const searchRef = useRef<HTMLInputElement>(null)
 
   const keyword = query.trim().toLowerCase()
   const searching = keyword.length > 0
+
+  /** 判断一个词是否通过当前筛选 */
+  const passFilter = (e: WordEntry): boolean => {
+    if (filter === 'all') return true
+    const done = learnedIds?.has(e.id) ?? false
+    if (filter === 'done') return done
+    if (filter === 'todo') return !done
+    return wrongIds?.has(e.id) ?? false
+  }
+
+  /** 各筛选模式下的词数，显示在按钮上 */
+  const filterCounts = useMemo(() => {
+    let done = 0
+    let wrong = 0
+    let total = 0
+    for (const g of book.groups) {
+      for (const e of g.entries) {
+        total += 1
+        if (learnedIds?.has(e.id)) done += 1
+        if (wrongIds?.has(e.id)) wrong += 1
+      }
+    }
+    return { all: total, done, todo: total - done, wrong }
+  }, [book, learnedIds, wrongIds])
+
+  /** 按筛选后的分组视图：组内过滤，空组隐藏 */
+  const filteredGroups = useMemo(() => {
+    if (filter === 'all') return book.groups
+    return book.groups
+      .map((g) => ({ ...g, entries: g.entries.filter(passFilter) }))
+      .filter((g) => g.entries.length > 0)
+    // passFilter 依赖 filter/learnedIds/wrongIds，已全部在下面列出
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [book, filter, learnedIds, wrongIds])
 
   /** 搜索结果：单词前缀优先、包含其次，最后是释义命中；上限 200 条防卡顿 */
   const results = useMemo(() => {
@@ -45,6 +102,7 @@ export default function BookBrowser({ book, onBack }: Props) {
     const meaningHit: WordEntry[] = []
     for (const g of book.groups) {
       for (const e of g.entries) {
+        if (!passFilter(e)) continue
         const w = e.word.toLowerCase()
         if (w.startsWith(keyword)) starts.push(e)
         else if (w.includes(keyword)) contains.push(e)
@@ -53,7 +111,8 @@ export default function BookBrowser({ book, onBack }: Props) {
       }
     }
     return [...starts, ...contains, ...meaningHit].slice(0, 200)
-  }, [book, keyword, searching])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [book, keyword, searching, filter, learnedIds, wrongIds])
 
   const totalWords = useMemo(() => book.groups.reduce((n, g) => n + g.entries.length, 0), [book])
 
@@ -100,7 +159,58 @@ export default function BookBrowser({ book, onBack }: Props) {
           </div>
         </div>
 
-        {/* 搜索框：input 用 min-w-0 + 外层 flex，390px 下不会被右侧按钮挤出去 */}
+        {/* 书切换器：两本书之间直接切，不用回首页 */}
+        {bookTabs && bookTabs.length > 1 && onSwitchBook && (
+          <div className="mt-3 flex gap-1.5">
+            {bookTabs.map((b) => {
+              const on = b.id === currentBookId
+              return (
+                <button
+                  key={b.id}
+                  onClick={() => onSwitchBook(b.id)}
+                  className={`min-w-0 flex-1 truncate rounded-xl px-3 py-2 text-[12.5px] transition active:scale-[.98] ${
+                    on ? 'bg-ink-900 font-medium text-white' : 'border border-ink-100 bg-white text-ink-500'
+                  }`}
+                >
+                  {b.name}
+                </button>
+              )
+            })}
+          </div>
+        )}
+
+        {/* 筛选条：全部 / 未学 / 已学 / 错词
+            这是背单词用户最需要的快捷入口——「今天先背没学过的」，
+            比滚动 497 个组去数要快得多。 */}
+        <div className="mt-2.5 flex gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+          {(
+            [
+              { key: 'all', label: '全部', n: filterCounts.all },
+              { key: 'todo', label: '未学', n: filterCounts.todo },
+              { key: 'done', label: '已学', n: filterCounts.done },
+              { key: 'wrong', label: '错词', n: filterCounts.wrong },
+            ] as { key: FilterMode; label: string; n: number }[]
+          ).map((f) => {
+            const on = filter === f.key
+            return (
+              <button
+                key={f.key}
+                onClick={() => {
+                  setFilter(f.key)
+                  setShownCount({})
+                }}
+                className={`shrink-0 rounded-full px-3 py-1.5 text-[12px] transition active:scale-[.97] ${
+                  on
+                    ? 'bg-ink-900 font-medium text-white'
+                    : 'border border-ink-100 bg-white text-ink-500'
+                }`}
+              >
+                {f.label}
+                <span className={`ml-1 tabular-nums ${on ? 'text-white/70' : 'text-ink-300'}`}>{f.n}</span>
+              </button>
+            )
+          })}
+        </div>
         <div className="mt-3 flex items-center gap-2 rounded-2xl border border-ink-100 bg-white px-3 shadow-sm">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-ink-300">
             <circle cx="11" cy="11" r="7" />
@@ -159,7 +269,7 @@ export default function BookBrowser({ book, onBack }: Props) {
         {/* ---------- 分组浏览 ---------- */}
         {!searching && (
           <section className="mt-3">
-            {book.groups.map((g, gi) => {
+            {filteredGroups.map((g, gi) => {
               const open = openIds.has(g.id)
               const limit = shownCount[g.id] ?? PAGE_SIZE
               const visible = g.entries.slice(0, limit)
