@@ -223,7 +223,7 @@ export default function BookBrowser({ book, onBack }: Props) {
       </div>
 
       {/* ---------- 词条拆解弹层 ---------- */}
-      {detail && <DetailSheet entry={detail} onClose={() => setDetail(null)} />}
+      {detail && <DetailSheet entry={detail} onClose={() => setDetail(null)} bookId={book.id} />}
     </div>
   )
 }
@@ -251,7 +251,7 @@ function WordRow({ entry, onClick, dense }: { entry: WordEntry; onClick: () => v
 
 /* ============================ 拆解弹层 ============================ */
 
-function DetailSheet({ entry, onClose }: { entry: WordEntry; onClose: () => void }) {
+function DetailSheet({ entry, onClose, bookId }: { entry: WordEntry; onClose: () => void; bookId: string }) {
   // Esc 关闭：桌面端用键盘翻词时才不别扭
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -287,8 +287,8 @@ function DetailSheet({ entry, onClose }: { entry: WordEntry; onClose: () => void
             <Breakdown
               segments={entry.segments}
               memory={entry.memory}
-              root={entry.root}
-              rootMeaning={entry.rootMeaning}
+              meaning={entry.meaning}
+              bookId={bookId}
             />
           ) : (
             <p className="text-[12.5px] leading-relaxed text-ink-400">

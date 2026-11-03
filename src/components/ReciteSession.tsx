@@ -320,10 +320,8 @@ export default function ReciteSession({
                 <Breakdown
                   segments={entry.segments}
                   memory={entry.memory}
-                  word={entry.word}
                   meaning={entry.meaning}
-                  root={entry.root}
-                  rootMeaning={entry.rootMeaning}
+                  bookId={book.id}
                 />
                 <button
                   onClick={() => setExpanded(false)}

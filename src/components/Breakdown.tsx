@@ -1,172 +1,158 @@
 /**
- * 拆解内容展示组件。
+ * 拆解展示 —— 一行彩色拆解式，用户明确要求的唯一形态。
  *
- * 规范见 docs/背诵逻辑规范.md「点击拆解后展开什么」。
+ * 核心形态（这是标准答案，不要发明别的排版）：
+ *      ex向外 + tend伸展 = 扩大
+ *   不同构件用不同颜色区分，一眼看出「哪些是前缀、哪些是词根、哪些是中文」。
  *
- * 核心要求：**点开拆解必须有信息增量**。
- * 绝不能出现「act → 点拆解 → 只有 act」这种空转，
- * 如果原文确实没有拆解信息，就退化为展示释义，保证用户点开一定看到有用的东西。
+ * 两种词书的格式本来就不同：
+ *   书1（词根版）：词条行是 `单词=拆解式=中文对照=词义`
+ *        counter + act = 相反 + 做
+ *   书2（速记版）：没有拆解式，只有「词根记忆 / 联想记忆」一列原文
+ *        pro前 + ceed走，前进
  *
- * 按 Segment.role 上色：
- * - root    主色蓝紫（词根是记忆锚点，用最重的色）
- * - affix   琥珀橙（词缀是可变部分，暖色区分）
- * - latin   青绿（其它词素）
- * - meaning 墨黑（中文释义，中文永远不是词缀）
- * - pos     淡灰（词性缩写 n. v. a.）
- * - link    极淡，只当分隔符号
+ * 右上角已经显示词根，**拆解区不再单独放词根块**。
  */
 import type { Segment } from '../types'
-import { ROLE_LABEL, ROLE_STYLE } from './roleStyle'
 
 interface Props {
   segments: Segment[]
-  /** 记忆方法（书2 的联想记忆、书1 的讲解） */
+  /** 书2 的记忆列原文 */
   memory?: string
-  /** 词根串 */
-  root?: string
-  rootMeaning?: string
-  /** 单词本身，用于判断拆解是否空转 */
-  word?: string
-  /** 单词释义，拆解无内容时作为兜底展示 */
+  /** 单词释义，展示在拆解式下方 */
   meaning?: string
+  /** 词书 id：book1 用 segments 拼拆解式，book2 用 memory */
+  bookId?: string
 }
 
-/** 判断拆解是否「没有信息增量」：去掉 link 和与单词相同的片段后还剩什么 */
-function hasRealContent(segments: Segment[], word?: string): boolean {
-  const meaningful = segments.filter((s) => {
-    if (s.role === 'link') return false
-    const t = s.text.trim()
-    if (!t) return false
-    // 与单词本身完全相同、且是唯一的 root 片段 -> 视为空转
-    if (word && t.toLowerCase() === word.toLowerCase()) return false
-    return true
-  })
-  return meaningful.length > 0
+/** 构件颜色：不同词性角色不同颜色，中文和英文一眼区分 */
+const ROLE_STYLE: Record<string, { text: string; en?: boolean }> = {
+  root: { text: 'text-brand-600', en: true }, // 词根：蓝紫
+  affix: { text: 'text-amber-600', en: true }, // 前缀/后缀：琥珀
+  latin: { text: 'text-teal-600', en: true }, // 其它英文词素：青绿
+  meaning: { text: 'text-ink-900' }, // 中文对照：墨黑
+  cjk: { text: 'text-ink-900' },
+  pos: { text: 'text-ink-400' }, // 词性 n. v. a.
+  link: { text: 'text-ink-300' }, // 连接符 + = 
 }
 
 /**
- * 基础词拆解：把「词根 + 单词」按词根是否能对上，生成一个可视化构成。
- *
- * 背景：原书有 817 个词是 `action=n.行动` 这种只有单词+释义的基础词，没有拆解。
- * 直接显示「这个词没有更细的拆解」虽然诚实，但用户点开等于什么都没看到。
- * 这里用「词根 + 剩余部分」补一个真实构成：
- *   action  ->  act(做) + ion
- *   active  ->  act(做) + ive
- * 只有词根确实出现在单词里时才生成，不会瞎编。
+ * 书1：把 segments 渲染成一行彩色拆解式。
+ * 原书的 segments 顺序本身就是 `a + b = A + B`，
+ * 直接按顺序输出，靠颜色区分角色，不再拆成上下两行。
  */
-function buildFromRoot(word: string, root: string): Segment[] | null {
-  if (!word || !root) return null
-  // 词根有多种写法：
-  //   'act'                        单变体
-  //   'tend/tent/tens'             斜杠分隔
-  //   'apt ept'                    空格分隔
-  //   'cap(t) cep(t) ceive cip cup' 混合，带括号
-  // 统一拆成变体列表，取最长的先匹配（长的更准确，如 ceive 优于 cip）。
-  const variants = root
-    .split(/[\/\s]+/)
-    .map((v) => v.replace(/[()\s]/g, ''))
-    .filter((v) => v.length >= 2)
-    .sort((a, b) => b.length - a.length)
-
-  const lw = word.toLowerCase()
-  let best: { v: string; idx: number } | null = null
-  for (const v of variants) {
-    const idx = lw.indexOf(v.toLowerCase())
-    if (idx < 0) continue
-    if (!best || v.length > best.v.length) best = { v, idx }
-  }
-  if (!best) return null
-
-  const head = word.slice(0, best.idx)
-  const tail = word.slice(best.idx + best.v.length)
-  const segs: Segment[] = []
-  if (head) segs.push({ text: head, role: 'affix' })
-  segs.push({ text: word.slice(best.idx, best.idx + best.v.length), role: 'root' })
-  if (tail) segs.push({ text: tail, role: 'affix' })
-  // 至少要能拆出「词根 + 前后缀」，否则没意义
-  if (segs.length >= 2) {
-    // 注意：不要把 rootMeaning 拼进 segments。
-    // 它是「词根」的意思，不是单词的意思，拼进去会让整式回显变成
-    // 「active=做；驱使」，误导用户以为单词释义是「做；驱使」。
-    // 词根释义已经在组件顶部单独展示了。
-    return segs
-  }
-  return null
+function InlineBreakdown({ segments }: { segments: Segment[] }) {
+  return (
+    <div className="flex flex-wrap items-baseline gap-x-0.5 gap-y-1 leading-relaxed">
+      {segments.map((s, i) => {
+        const st = ROLE_STYLE[s.role] ?? ROLE_STYLE.meaning
+        const isLink = s.role === 'link'
+        const text = s.text.trim()
+        if (!text) return null
+        // 严格按词书原样展示：词性标记（a. n. v. ad.）是原书对英文构件的解释，
+        // 说明「这一段是形容词/名词/动词」，属于拆解内容的一部分，必须保留。
+        // 之前把它过滤掉是本末倒置 —— 原书每一段都要如实呈现。
+        return (
+          <span
+            key={i}
+            className={`${st.text} ${isLink ? 'px-1 text-[15px] font-light' : st.en ? 'font-word text-[17px] font-semibold' : 'text-[15px] font-medium'}`}
+          >
+            {text}
+          </span>
+        )
+      })}
+    </div>
+  )
 }
 
-export default function Breakdown({ segments, memory, root, rootMeaning, word, meaning }: Props) {
-  // 先看原数据有没有真内容；没有就用词根补一个构成；再没有才显示释义兜底
-  const derived = hasRealContent(segments, word) ? null : buildFromRoot(word ?? '', root ?? '')
-  const shown = derived ?? segments
-  const real = hasRealContent(shown, word)
+export default function Breakdown({ segments, memory, meaning, bookId }: Props) {
+  const isBook2 = bookId === 'book2'
+
+  /* ---------- 书2：原文只有「词根记忆 / 联想记忆」一列 ---------- */
+  if (isBook2) {
+    return (
+      <div className="animate-fade-up space-y-2.5">
+        {memory ? (
+          <div className="rounded-xl bg-white px-3 py-2.5">
+            <ColorizedMemory text={memory} />
+          </div>
+        ) : (
+          <p className="rounded-xl bg-ink-50 px-3 py-2.5 text-[13px] text-ink-400">
+            原书这一条没有记忆内容
+          </p>
+        )}
+        {meaning && <MeaningLine meaning={meaning} />}
+      </div>
+    )
+  }
+
+  /* ---------- 书1：一行彩色拆解式 ex向外 + tend伸展 = 扩大 ---------- */
+  // 需要「有拆解」才算数：去掉 link 后至少还有 1 个构件，且不是单词自身
+  const real = (segments || []).some(
+    (s) => s.role !== 'link' && s.text.trim() && s.role !== 'pos',
+  )
 
   return (
-    <div className="animate-fade-up">
-      {root && (
-        <div className="mb-3 flex flex-wrap items-center gap-2 text-[13px] text-ink-500">
-          <span className="rounded-md bg-ink-100 px-1.5 py-0.5 font-medium text-ink-700">词根</span>
-          <span className="font-word text-[15px] font-semibold text-brand-600">{root}</span>
-          {rootMeaning && <span className="text-ink-500">{rootMeaning}</span>}
-        </div>
-      )}
-
+    <div className="animate-fade-up space-y-2.5">
       {real ? (
-        <>
-          {/* 彩色拆解块：自动换行，手机上两三个色块一行；link 角色渲染成内联小符号 */}
-          <div className="flex flex-wrap items-stretch gap-2">
-            {shown.map((s, i) => {
-              const st = ROLE_STYLE[s.role] ?? ROLE_STYLE.meaning
-              // 连接符单独处理：不加框、不占位，只当分隔符号
-              if (s.role === 'link') {
-                return (
-                  <span key={`${s.text}-${i}`} className={`self-center px-0.5 text-[15px] font-light ${st.text}`}>
-                    {s.text.trim() || '·'}
-                  </span>
-                )
-              }
-              return (
-                <div
-                  key={`${s.text}-${i}`}
-                  className={`flex min-w-[64px] flex-col items-center justify-center rounded-xl border px-3 py-2 ${
-                    s.role === 'root' ? 'flex-[2]' : 'flex-1'
-                  } ${st.wrap}`}
-                >
-                  <span
-                    className={`whitespace-pre-wrap break-words text-center leading-tight ${st.text} ${
-                      s.role === 'latin' ? 'font-word' : ''
-                    } ${s.role === 'root' ? 'text-[22px] font-bold' : 'text-[16px] font-semibold'}`}
-                  >
-                    {s.text}
-                  </span>
-                  {ROLE_LABEL[s.role] && (
-                    <span className={`mt-1 text-[10px] tracking-wide ${st.tag}`}>{ROLE_LABEL[s.role]}</span>
-                  )}
-                </div>
-              )
-            })}
-          </div>
-
-          {/* 拆解式原文回显：把片段按原顺序拼成一行，方便整体记忆 */}
-          <p className="mt-2.5 break-words font-word text-[13px] leading-relaxed text-ink-400">
-            {shown.map((s) => s.text).join('')}
-          </p>
-        </>
+        <div className="rounded-xl bg-white px-3 py-2.5">
+          <InlineBreakdown segments={segments} />
+        </div>
       ) : (
-        /* 空转兜底：原文没有拆解信息、词根也拼不出来时，展示释义，保证点开有内容 */
-        <div className="rounded-xl border border-ink-100 bg-white px-3 py-2.5">
-          <p className="text-[11px] font-medium text-ink-400">这个词没有更细的拆解</p>
-          {meaning && (
-            <p className="mt-1 break-words text-[15px] leading-snug text-ink-900">{meaning}</p>
-          )}
-        </div>
+        <p className="rounded-xl bg-ink-50 px-3 py-2.5 text-[13px] text-ink-400">
+          原书这个词没有拆解
+        </p>
       )}
-
-      {memory && (
-        <div className="mt-3 rounded-xl bg-ink-50 px-3 py-2.5 text-[13.5px] leading-relaxed text-ink-700">
-          <span className="mr-1.5 text-[11px] font-medium text-ink-400">记忆</span>
-          {memory}
-        </div>
-      )}
+      {meaning && <MeaningLine meaning={meaning} />}
     </div>
+  )
+}
+
+function MeaningLine({ meaning }: { meaning: string }) {
+  return (
+    <p className="break-words rounded-xl bg-ink-50 px-3 py-2 text-[14px] leading-snug text-ink-700">
+      {meaning}
+    </p>
+  )
+}
+
+/**
+ * 书2 的记忆列上色。
+ *
+ * 原书这一列形如「pro前 + ceed走，前进」「ex向外 + tend伸展」，
+ * 本身就是「英文构件 + 中文含义」的紧凑写法。
+ * 这里按 + 号切片，再把每片里「英文前缀」和「中文」分色，
+ * 保持与书1 拆解式一致的视觉语言：英文一种色、中文墨黑。
+ */
+function ColorizedMemory({ text }: { text: string }) {
+  // 按 + 切成构件，保留分隔符
+  const parts = text.split(/(\s*\+\s*)/)
+  return (
+    <p className="break-words leading-relaxed">
+      {parts.map((part, i) => {
+        if (/^\s*\+\s*$/.test(part)) {
+          return (
+            <span key={i} className="px-1 text-[15px] font-light text-ink-300">
+              +
+            </span>
+          )
+        }
+        // 一片里的「英文部分」和「中文部分」分色
+        const m = part.match(/^([A-Za-z][A-Za-z()\-\s]*)([\s\S]*)$/)
+        if (m && m[2]) {
+          return (
+            <span key={i}>
+              <span className="font-word text-[16px] font-semibold text-brand-600">{m[1].trimEnd()}</span>
+              <span className="text-[15px] text-ink-900">{m[2]}</span>
+            </span>
+          )
+        }
+        return (
+          <span key={i} className="font-word text-[16px] font-semibold text-brand-600">
+            {part}
+          </span>
+        )
+      })}
+    </p>
   )
 }

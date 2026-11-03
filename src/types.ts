@@ -14,8 +14,9 @@
  * - latin     英文词素原文（如 facere、tend）——数据源实际用它标所有英文部分
  * - cjk       中文提示/释义片段（如 「疼的」、「向外」）
  * - link      连接符与标点（如 「 + 」、「：」），不承载语义，渲染时弱化处理
+ * - pos       词性缩写（n. v. a. ad. adj.），数据源用它标词性标签
  */
-export type SegmentRole = 'root' | 'affix' | 'meaning' | 'latin' | 'cjk' | 'link'
+export type SegmentRole = 'root' | 'affix' | 'meaning' | 'latin' | 'cjk' | 'link' | 'pos'
 
 /** 一个拆解片段：UI 会按 role 上不同的颜色 */
 export interface Segment {

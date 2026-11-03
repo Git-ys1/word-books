@@ -41,6 +41,12 @@ export const ROLE_STYLE: Record<SegmentRole, { wrap: string; text: string; tag: 
     text: 'text-ink-300',
     tag: 'text-ink-200',
   },
+  // 词性缩写（n. v. a. ad.）：淡灰，弱化但仍可读
+  pos: {
+    wrap: 'border-transparent bg-transparent',
+    text: 'text-ink-400',
+    tag: 'text-ink-300',
+  },
 }
 
 export const ROLE_LABEL: Record<SegmentRole, string> = {
@@ -50,4 +56,5 @@ export const ROLE_LABEL: Record<SegmentRole, string> = {
   latin: '词源',
   cjk: '记忆',
   link: '',
+  pos: '词性',
 }

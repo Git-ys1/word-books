@@ -130,8 +130,8 @@ export default function WrongBook({ bookId, bookName, list, entryIndex, onBack, 
                           <Breakdown
                             segments={entry.segments}
                             memory={entry.memory}
-                            root={entry.root}
-                            rootMeaning={entry.rootMeaning}
+                            meaning={entry.meaning}
+                            bookId={bookId}
                           />
                         ) : (
                           <p className="text-[12.5px] text-ink-400">词书里找不到这条词的拆解，可能数据版本已更新。</p>
