@@ -76,7 +76,7 @@ export default function BookBrowser({ book, onBack }: Props) {
   }
 
   return (
-    <div className="min-h-[100svh] pb-10">
+    <div className="min-h-[100svh] pb-24">
       <div className="app-shell pt-3">
         {/* 顶部栏 */}
         <div className="flex items-center gap-3">

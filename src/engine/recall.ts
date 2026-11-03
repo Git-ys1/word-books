@@ -23,12 +23,27 @@ import type { BookId } from '../types'
  *                 这是「练了多少遍」，不是「学了多少词」。
  * - studyMs     ：累计学习时长（毫秒），由 useStats 用每次会话打卡的 delta 累加。
  * - updatedAt   ：最后一次变动的本地时间戳（渲染阶段读它，保证 SSR 渲染稳定）。
+ * - daily       ：按日期聚合的学习轨迹（图表数据源），键是本地日期 YYYY-MM-DD。
+ *                 只保留最近 60 天，避免 localStorage 无限膨胀。
  */
+export interface DailyStat {
+  /** 当天新学会的词数（learnedIds 在这天首次加入的数量） */
+  newWords: number
+  /** 当天判定总次数 */
+  reviews: number
+  /** 当天学习时长（毫秒） */
+  studyMs: number
+  /** 当天答对次数 */
+  correct: number
+}
+
 export interface BookStats {
   learnedIds: string[]
   reviews: number
   studyMs: number
   updatedAt: number
+  /** 按日期的学习轨迹，用于成长曲线 / 热力图 */
+  daily?: Record<string, DailyStat>
 }
 
 /** 错词本里的一条：某个词、错了几次、释义与词根（用来直接展示，不必回查词书） */
@@ -70,6 +85,25 @@ function emptyStats(): BookStats {
 
 /* ============================ 一次判定的记账 ============================ */
 
+/** 本地日期键 YYYY-MM-DD（不用 toISOString，那是 UTC，会让凌晨学的东西算到前一天） */
+export function localDayKey(ts: number): string {
+  const d = new Date(ts)
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${y}-${m}-${day}`
+}
+
+/** 每日轨迹最多保留 60 天，超出的按日期排序砍掉最旧的，防止 localStorage 撑爆 */
+export function pruneDaily(daily: Record<string, DailyStat>, keep = 60): Record<string, DailyStat> {
+  const keys = Object.keys(daily).sort()
+  if (keys.length <= keep) return daily
+  const keepKeys = keys.slice(keys.length - keep)
+  const out: Record<string, DailyStat> = {}
+  for (const k of keepKeys) out[k] = daily[k]
+  return out
+}
+
 /** 普通判定与错词复习判定的唯一出口，都汇总成这个事件 */
 export interface RecallEvent {
   bookId: BookId
@@ -102,12 +136,26 @@ export function recordEvent(store: RecallStore, ev: RecallEvent, now: number): R
 
   // ---- 统计 ----
   const learned = new Set(stats.learnedIds)
+  const isNew = ev.verdict === 'know' && !learned.has(ev.entryId)
   if (ev.verdict === 'know') learned.add(ev.entryId)
+
+  // ---- 每日轨迹：图表的数据来源 ----
+  const dayKey = localDayKey(now)
+  const daily = { ...(stats.daily ?? {}) }
+  const today = daily[dayKey] ?? { newWords: 0, reviews: 0, studyMs: 0, correct: 0 }
+  daily[dayKey] = {
+    newWords: today.newWords + (isNew ? 1 : 0),
+    reviews: today.reviews + 1,
+    studyMs: today.studyMs,
+    correct: today.correct + (ev.verdict === 'know' ? 1 : 0),
+  }
+
   const nextStats: BookStats = {
     learnedIds: [...learned],
     reviews: stats.reviews + 1,
     studyMs: stats.studyMs,
     updatedAt: now,
+    daily: pruneDaily(daily),
   }
 
   // ---- 错词本 ----
@@ -146,13 +194,23 @@ export function recordEvent(store: RecallStore, ev: RecallEvent, now: number): R
  *   - 上限：合上手机睡一觉，回来 tab 还在后台，不该白记 8 小时；
  *   - 下限：时钟回拨（系统时间被改）时 delta 为负，直接丢弃而不是倒扣。
  */
-export function addStudyMs(store: RecallStore, bookId: BookId, deltaMs: number): RecallStore {
+export function addStudyMs(store: RecallStore, bookId: BookId, deltaMs: number, now = Date.now()): RecallStore {
   if (!Number.isFinite(deltaMs) || deltaMs <= 0) return store
   const capped = Math.min(Math.round(deltaMs), 5 * 60 * 1000)
   const stats = store.stats[bookId] ?? emptyStats()
+
+  // 同步写进当天的每日轨迹，图表才能画出「每天学了多久」
+  const dayKey = localDayKey(now)
+  const daily = { ...(stats.daily ?? {}) }
+  const today = daily[dayKey] ?? { newWords: 0, reviews: 0, studyMs: 0, correct: 0 }
+  daily[dayKey] = { ...today, studyMs: today.studyMs + capped }
+
   return {
     ...store,
-    stats: { ...store.stats, [bookId]: { ...stats, studyMs: stats.studyMs + capped } },
+    stats: {
+      ...store.stats,
+      [bookId]: { ...stats, studyMs: stats.studyMs + capped, daily: pruneDaily(daily) },
+    },
   }
 }
 

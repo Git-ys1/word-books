@@ -24,12 +24,15 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import BookBrowser from './components/BookBrowser'
+import BottomNav from './components/BottomNav'
+import type { TabKey } from './components/BottomNav'
 import ExitDialog from './components/ExitDialog'
 import Home from './components/Home'
 import type { BookCard, BookStatsView } from './components/Home'
 import ReciteSession from './components/ReciteSession'
 import type { RecallSubmit } from './components/ReciteSession'
 import SettingsSheet from './components/SettingsSheet'
+import Statistics from './components/Statistics'
 import WrongBook from './components/WrongBook'
 import { BOOK_META, buildEntryIndex, flattenEntries, loadBook } from './data'
 import type { BookLoadResult } from './data'
@@ -38,7 +41,7 @@ import type { BookId, SessionState, Settings } from './types'
 import { usePersistentState, removeStorage } from './hooks/usePersistentState'
 import { useStats } from './hooks/useStats'
 
-type Screen = 'home' | 'recite' | 'browse' | 'wrong'
+type Screen = 'home' | 'recite' | 'browse' | 'wrong' | 'stats'
 
 const KEY_SESSION = 'session'
 const KEY_SETTINGS = 'settings'
@@ -326,6 +329,44 @@ export default function App() {
             setWrongBookId(id)
             setScreen('wrong')
           }}
+        />
+      )}
+
+      {/* ---------- 学习数据看板 ---------- */}
+      {screen === 'stats' && (
+        <Statistics
+          stats={stats.store.stats}
+          wrongCounts={{ book1: statsView.book1.wrongCount, book2: statsView.book2.wrongCount }}
+          totals={{ book1: books.book1.count, book2: books.book2.count }}
+          bookNames={{ book1: books.book1.name, book2: books.book2.name }}
+          onBack={() => setScreen('home')}
+        />
+      )}
+
+      {/* ---------- 底部导航：背诵时隐藏，专注不被打断 ---------- */}
+      {screen !== 'recite' && (
+        <BottomNav
+          active={
+            screen === 'stats'
+              ? 'stats'
+              : screen === 'wrong'
+                ? 'wrong'
+                : screen === 'browse'
+                  ? 'browse'
+                  : 'home'
+          }
+          onChange={(tab: TabKey) => {
+            if (tab === 'home') setScreen('home')
+            else if (tab === 'stats') setScreen('stats')
+            else if (tab === 'wrong') {
+              setWrongBookId('book1')
+              setScreen('wrong')
+            } else {
+              setBrowseBookId('book1')
+              setScreen('browse')
+            }
+          }}
+          wrongCount={statsView.book1.wrongCount + statsView.book2.wrongCount}
         />
       )}
 

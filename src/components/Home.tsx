@@ -119,7 +119,7 @@ export default function Home({
   }
 
   return (
-    <div className="min-h-[100svh] pb-10">
+    <div className="min-h-[100svh] pb-24">
       <div className="app-shell pt-5">
         {/* 顶部标题栏：
             必须 flex-1 min-w-0 + 右侧按钮 shrink-0，

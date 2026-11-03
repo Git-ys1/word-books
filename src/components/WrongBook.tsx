@@ -37,7 +37,7 @@ export default function WrongBook({ bookId, bookName, list, entryIndex, onBack, 
   const avg = sorted.length > 0 ? (totalWrongTimes / sorted.length).toFixed(1) : '0'
 
   return (
-    <div className="min-h-[100svh] pb-28">
+    <div className="min-h-[100svh] pb-40">
       <div className="app-shell pt-3">
         {/* 顶部栏 */}
         <div className="flex items-center gap-3">
@@ -147,9 +147,13 @@ export default function WrongBook({ bookId, bookName, list, entryIndex, onBack, 
       </div>
 
       {/* 底部悬浮操作条：专项复习。
-          用 sticky + 安全区兜底，长列表滚动时也能随时点到。 */}
+          用 sticky + 安全区兜底，长列表滚动时也能随时点到。
+          注意 bottom 要抬高到「底部导航栏之上」，否则两个条会叠在一起。 */}
       {sorted.length > 0 && (
-        <div className="fixed inset-x-0 bottom-0 z-30 border-t border-ink-100 bg-white/90 px-4 pb-[calc(env(safe-area-inset-bottom)+12px)] pt-3 backdrop-blur">
+        <div
+          className="fixed inset-x-0 z-30 border-t border-ink-100 bg-white/90 px-4 pt-3 backdrop-blur"
+          style={{ bottom: 'calc(56px + env(safe-area-inset-bottom))', paddingBottom: '12px' }}
+        >
           <div className="mx-auto flex max-w-[640px] gap-2">
             <button
               onClick={() => onReview(sorted.map((w) => w.id))}
