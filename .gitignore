@@ -35,3 +35,6 @@ _qa_*
 _review_*
 scripts/_*
 .e2e
+
+# 临时二维码图片
+*二维码.png
