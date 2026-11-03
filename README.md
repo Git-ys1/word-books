@@ -1,6 +1,14 @@
 # word-books · 背单词
 
-纯前端背单词网页，手机优先，部署到 Netlify。无后端，进度存在 localStorage，支持导出/导入 JSON 备份。
+## 🚀 在线地址
+
+**https://git-ys1.github.io/word-books/**
+
+手机浏览器直接打开即可使用。推到 `master` 会自动构建发布。
+
+---
+
+纯前端背单词网页，手机优先。无后端，进度存在 localStorage，支持导出/导入 JSON 备份。
 
 技术栈：**React 19 + Vite 7 + TypeScript 5.9 + Tailwind CSS 3.4**
 
