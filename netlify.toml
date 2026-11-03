@@ -8,8 +8,15 @@
   to = "/index.html"
   status = 200
 
-# 静态资源长缓存
+# 静态资源长缓存：带 hash 的 JS/CSS，改内容必然改文件名，安全
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# 词书数据不能长缓存：文件名是固定的 book1.json / book2.json，
+# 数据更新后若被长缓存住，用户会一直看到旧词书。用协商缓存，既省流量又能及时更新。
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
