@@ -44,8 +44,61 @@ function hasRealContent(segments: Segment[], word?: string): boolean {
   return meaningful.length > 0
 }
 
+/**
+ * 基础词拆解：把「词根 + 单词」按词根是否能对上，生成一个可视化构成。
+ *
+ * 背景：原书有 817 个词是 `action=n.行动` 这种只有单词+释义的基础词，没有拆解。
+ * 直接显示「这个词没有更细的拆解」虽然诚实，但用户点开等于什么都没看到。
+ * 这里用「词根 + 剩余部分」补一个真实构成：
+ *   action  ->  act(做) + ion
+ *   active  ->  act(做) + ive
+ * 只有词根确实出现在单词里时才生成，不会瞎编。
+ */
+function buildFromRoot(word: string, root: string): Segment[] | null {
+  if (!word || !root) return null
+  // 词根有多种写法：
+  //   'act'                        单变体
+  //   'tend/tent/tens'             斜杠分隔
+  //   'apt ept'                    空格分隔
+  //   'cap(t) cep(t) ceive cip cup' 混合，带括号
+  // 统一拆成变体列表，取最长的先匹配（长的更准确，如 ceive 优于 cip）。
+  const variants = root
+    .split(/[\/\s]+/)
+    .map((v) => v.replace(/[()\s]/g, ''))
+    .filter((v) => v.length >= 2)
+    .sort((a, b) => b.length - a.length)
+
+  const lw = word.toLowerCase()
+  let best: { v: string; idx: number } | null = null
+  for (const v of variants) {
+    const idx = lw.indexOf(v.toLowerCase())
+    if (idx < 0) continue
+    if (!best || v.length > best.v.length) best = { v, idx }
+  }
+  if (!best) return null
+
+  const head = word.slice(0, best.idx)
+  const tail = word.slice(best.idx + best.v.length)
+  const segs: Segment[] = []
+  if (head) segs.push({ text: head, role: 'affix' })
+  segs.push({ text: word.slice(best.idx, best.idx + best.v.length), role: 'root' })
+  if (tail) segs.push({ text: tail, role: 'affix' })
+  // 至少要能拆出「词根 + 前后缀」，否则没意义
+  if (segs.length >= 2) {
+    // 注意：不要把 rootMeaning 拼进 segments。
+    // 它是「词根」的意思，不是单词的意思，拼进去会让整式回显变成
+    // 「active=做；驱使」，误导用户以为单词释义是「做；驱使」。
+    // 词根释义已经在组件顶部单独展示了。
+    return segs
+  }
+  return null
+}
+
 export default function Breakdown({ segments, memory, root, rootMeaning, word, meaning }: Props) {
-  const real = hasRealContent(segments, word)
+  // 先看原数据有没有真内容；没有就用词根补一个构成；再没有才显示释义兜底
+  const derived = hasRealContent(segments, word) ? null : buildFromRoot(word ?? '', root ?? '')
+  const shown = derived ?? segments
+  const real = hasRealContent(shown, word)
 
   return (
     <div className="animate-fade-up">
@@ -61,7 +114,7 @@ export default function Breakdown({ segments, memory, root, rootMeaning, word, m
         <>
           {/* 彩色拆解块：自动换行，手机上两三个色块一行；link 角色渲染成内联小符号 */}
           <div className="flex flex-wrap items-stretch gap-2">
-            {segments.map((s, i) => {
+            {shown.map((s, i) => {
               const st = ROLE_STYLE[s.role] ?? ROLE_STYLE.meaning
               // 连接符单独处理：不加框、不占位，只当分隔符号
               if (s.role === 'link') {
@@ -95,11 +148,11 @@ export default function Breakdown({ segments, memory, root, rootMeaning, word, m
 
           {/* 拆解式原文回显：把片段按原顺序拼成一行，方便整体记忆 */}
           <p className="mt-2.5 break-words font-word text-[13px] leading-relaxed text-ink-400">
-            {segments.map((s) => s.text).join('')}
+            {shown.map((s) => s.text).join('')}
           </p>
         </>
       ) : (
-        /* 空转兜底：原文没有拆解信息时，展示释义，保证点开有内容 */
+        /* 空转兜底：原文没有拆解信息、词根也拼不出来时，展示释义，保证点开有内容 */
         <div className="rounded-xl border border-ink-100 bg-white px-3 py-2.5">
           <p className="text-[11px] font-medium text-ink-400">这个词没有更细的拆解</p>
           {meaning && (
