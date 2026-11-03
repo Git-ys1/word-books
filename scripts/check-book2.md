@@ -14,7 +14,7 @@
 - 三列区 root 非空：0 处（D8/D9/D10 的 root 与 rootMeaning 均为空字符串）
 - 音标残留：0 处（U+0250–U+02AF 及 ˈ ˌ ː 等 IPA 符号均未出现）
 - 水印残留：0 处（「Shen的背书魔法」未进入任何字段）
-- 附加发现：root/rootMeaning 字段拆分缺陷 75 条（12 个词根组，非上述 6 项硬性检查），另有 1 条词根缺失，详见问题清单。
+- 附加发现：root/rootMeaning 字段问题共 80 条（root 含中文 75 条，其中 D7 的「健康」「力量」12 条 rootMeaning 同时为空；company 组 rootMeaning 缺失 3 条；`contact` root 缺失 1 条；`profit` 边界归属差异 1 条），均非上述 6 项硬性检查，详见问题清单。
 
 ### 每日词条数明细
 
@@ -42,7 +42,7 @@
 | expand | 1 | pand/pans | pand/pans | `pand/pans 展开`（p1） | 正确 |
 | tendency | 1 | tend/tent/tens | tend/tent/tens | `tend/tent/tens 伸展，趋向`（p1） | 正确 |
 
-整体扫描：按 PDF 表头把 4 列区切成词根块，逐条比对 1619 条所在块的词根单元格文本，未发现将单词挂到其他词根组的情况（无「social→social」「observation→observ」一类串组）。仅 `profit` 一处属于表内边界词，见问题清单第 6 条。
+整体扫描：按 PDF 表头把 4 列区切成词根块，逐条比对 1619 条所在块的词根单元格文本，未发现将单词挂到其他词根组的情况（例如 social 仍在 soci 组、observation 仍在 serv 组，没有按单词字面另立词根）。仅 `profit` 一处属于表内边界词，见问题清单第 6 条。
 
 ## 问题清单
 
@@ -53,8 +53,8 @@
 | 2 | company / accompany / companion | rootMeaning 为空；PDF 词根单元格为 `pany` + `谐音：陪你` | root="pany"，rootMeaning="" | rootMeaning="谐音：陪你"（3 条） | 6 |
 | 7 | health / unhealthy / fit / fitness / wellbeing | root 存了中文、rootMeaning 为空；PDF 该词根单元格只写「健康」 | root="健康"，rootMeaning="" | root=""，rootMeaning="健康"（5 条） | 36 |
 | 7 | power / powerful / strength / strengthen / energy / energetic / dynamics | root 存了中文、rootMeaning 为空；PDF 该词根单元格只写「力量」 | root="力量"，rootMeaning="" | root=""，rootMeaning="力量"（7 条） | 37 |
-| 3 | profit | 词根归属与 PDF 表内位置不同：PDF 第 15 页末行在 `fic 做` 组，第 16 页起才是 `fit 做` 组 | root="fit"，rootMeaning="做" | 按 PDF 应为 fic/fect；若按词源 pro+fit 可保留，属边界词，不计串组 | 15 |
-| 1–5 | 12 组共 75 条 | root 栏混入中文或英文释义，未按「root=英文部分、rootMeaning=中文部分」拆分，见下表 | 见下表 | root 只保留英文，中文移入 rootMeaning | 2–27 |
+| 3 | profit | 词根归属与 PDF 表内位置不同：PDF 第 15 页末行落在 `fic 做` 组，第 16 页起才是 `fit 做` 组 | root="fit"，rootMeaning="做" | 按 PDF 应为 fic；若按词源 pro+fit 可保留，属边界词，不计串组 | 15 |
+| 1–5 | 10 组共 63 条 | root 栏混入中文或英文释义，未按「root=英文部分、rootMeaning=中文部分」拆分（外加 D7 的「健康」「力量」12 条，已单列） | 见下表 | root 只保留英文，中文移入 rootMeaning | 2–27 |
 
 ### 附：root 混入中文的 12 组（75 条）
 
@@ -77,8 +77,8 @@
 
 ## 复核口径
 
-1. **词条数**：用 PyMuPDF 取每页 span 坐标，按「单词」列（D1–D2 排除音标列）逐行聚类重建表格；跨页续表、无表头续页（如 p5、p10、p16、p22、p28、p34、p41）均按上一行连续处理；页内重复表头不计数。逐日单词多重集与 JSON 完全一致（仅 D10 的 `renaissance` 多 1 行）。
-2. **释义**：把 55 页全文与每条 meaning 分别去掉所有空白字符后做子串匹配；1619 条全部命中。另做逐行单元格级复核，除 1 条标点差异（`renaissance` 的「，」和「.」来自 p55 版本）外均一致；4 条因 PDF 音标列文字溢出到中文列导致单元格边界噪声，全文匹配仍命中，非数据缺失。
+1. **词条数**：用 PyMuPDF 取每页 span 坐标，按「单词」列（D1–D2 排除音标列）逐行聚类重建表格；跨页续表、无表头续页（如 p5、p10、p16、p22、p28、p34、p41）均按上一行连续处理；页内重复表头不计数。逐日行数与 JSON 一致；两个纯抽取现象已人工核对：D7 的 `contrary`（p35）因词根格文字与单词排在同一行，按列切分时会残留 `ry`，该行实际完整存在，不影响计数；D10 的 `renaissance` 在 p54、p55 各有一行，是原文重复排印。
+2. **释义**：把 55 页全文与每条 meaning 分别去掉所有空白字符后做子串匹配；1619 条全部命中。另做逐行单元格级复核，除 1 条标点差异（`renaissance` 的「，」和「.」来自 p55 版本）外均一致；5 条（unconstitutional、administration、misuse、contract、anthropologist）因 PDF 音标列文字溢出到中文列导致单元格边界噪声，全文匹配仍命中，非数据缺失。
 3. **词根**：按表头 `词根/原型` 分块，取块内左侧词根单元格文本（含无表头的续页、跨页拆分的词根格），与 JSON 的 root/rootMeaning 做去空白子串比对，并人工核对 5 个指定词。
 4. **三列区**：D8（p40–45）、D9（p46–50）、D10（p51–55）原文只有「单词/中文/联想记忆」三列，JSON 对应 root、rootMeaning 均为空，0 处例外。
 5. **音标/水印/记忆标记**：遍历每条记录的 word、root、rootMeaning、meaning、memory 全文扫描；IPA 统一码段、IPA 修饰符、`Shen的背书魔法`、`记忆：/联想：/谐音：` 在 root 中均为 0。

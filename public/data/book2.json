@@ -415,24 +415,24 @@
     },
     {
      "word": "prosecute",
-     "root": "secut(e)跟随",
-     "rootMeaning": "secut(e)跟随",
+     "root": "secut(e)",
+     "rootMeaning": "跟随",
      "meaning": "起诉，担任控方律师v.",
      "memory": "记忆：se 色迷迷 + cute 可爱，色迷迷的大叔跟随着可爱的人 pro前面 + secut跟随",
      "segments": []
     },
     {
      "word": "prosecution",
-     "root": "secut(e)跟随",
-     "rootMeaning": "secut(e)跟随",
+     "root": "secut(e)",
+     "rootMeaning": "跟随",
      "meaning": "起诉，原告方n.",
      "memory": "记忆：se 色迷迷 + cute 可爱，色迷迷的大叔跟随着可爱的人 ion名词，表动作，状态，物品",
      "segments": []
     },
     {
      "word": "prosecutor",
-     "root": "secut(e)跟随",
-     "rootMeaning": "secut(e)跟随",
+     "root": "secut(e)",
+     "rootMeaning": "跟随",
      "meaning": "公诉人，检察官n.",
      "memory": "记忆：se 色迷迷 + cute 可爱，色迷迷的大叔跟随着可爱的人 or表人",
      "segments": []
@@ -623,88 +623,88 @@
     },
     {
      "word": "gene",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "基因n.",
      "memory": "音译",
      "segments": []
     },
     {
      "word": "genetic",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "基因的adj.",
      "memory": "ic形容词，..的",
      "segments": []
     },
     {
      "word": "genetically",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "从基因方面adv.",
      "memory": "ally副词",
      "segments": []
     },
     {
      "word": "genetics",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "基因学n.",
      "memory": "ics名词，表示学科，学术",
      "segments": []
     },
     {
      "word": "genome",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "基因组n.",
      "memory": "gen基因 + ome(home家庭)",
      "segments": []
     },
     {
      "word": "generate",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "产生(能量)，造成v.",
      "memory": "gener产生/出生 + ate动词",
      "segments": []
     },
     {
      "word": "generation",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "一代人，一辈n.",
      "memory": "ion名词，表动作，状态，物品",
      "segments": []
     },
     {
      "word": "generational",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "一代的adj.",
      "memory": "al形容词，..的",
      "segments": []
     },
     {
      "word": "generative",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "(语言学中)生成的，有生产能力的adj.",
      "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
      "word": "engineer",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "工程师n.",
      "memory": "en=in里面 + gine产生，内部产生能量的—引擎",
      "segments": []
     },
     {
      "word": "engineering",
-     "root": "gene 基因",
-     "rootMeaning": "gene 基因",
+     "root": "gene",
+     "rootMeaning": "基因",
      "meaning": "工程，工程学n.",
      "memory": "ing名词，表示行为、状态、与行为有关物",
      "segments": []
@@ -856,7 +856,7 @@
     {
      "word": "overrule",
      "root": "over",
-     "rootMeaning": "over",
+     "rootMeaning": "",
      "meaning": "否决v.",
      "memory": "over上面 + rule统治，管理，上层管理者拥有否决权",
      "segments": []
@@ -864,7 +864,7 @@
     {
      "word": "overlook",
      "root": "over",
-     "rootMeaning": "over",
+     "rootMeaning": "",
      "meaning": "俯视，忽视v.",
      "memory": "over上面 + look看",
      "segments": []
@@ -872,7 +872,7 @@
     {
      "word": "outcome",
      "root": "out",
-     "rootMeaning": "out",
+     "rootMeaning": "",
      "meaning": "结果，成果n.",
      "memory": "out出去 + come来，起因引导出来的结果",
      "segments": []
@@ -880,7 +880,7 @@
     {
      "word": "fallout",
      "root": "out",
-     "rootMeaning": "out",
+     "rootMeaning": "",
      "meaning": "后果n.",
      "memory": "fall掉 + out出去，掉落出去的后果",
      "segments": []
@@ -888,7 +888,7 @@
     {
      "word": "output",
      "root": "out",
-     "rootMeaning": "out",
+     "rootMeaning": "",
      "meaning": "产量，产生n.",
      "memory": "out外面 + put放，释放出去——输出，产生",
      "segments": []
@@ -896,7 +896,7 @@
     {
      "word": "outlet",
      "root": "out",
-     "rootMeaning": "out",
+     "rootMeaning": "",
      "meaning": "出口，出路，专营店n.",
      "memory": "out出去 + let让，让他出去——出口",
      "segments": []
@@ -904,7 +904,7 @@
     {
      "word": "outlive",
      "root": "out",
-     "rootMeaning": "out",
+     "rootMeaning": "",
      "meaning": "比..活得久v.",
      "memory": "out超过 + live生活，活得比别人久",
      "segments": []
@@ -912,7 +912,7 @@
     {
      "word": "upload",
      "root": "up",
-     "rootMeaning": "up",
+     "rootMeaning": "",
      "meaning": "上传v. 上传的数据n.",
      "memory": "up上面 + load载入",
      "segments": []
@@ -920,7 +920,7 @@
     {
      "word": "upkeep",
      "root": "up",
-     "rootMeaning": "up",
+     "rootMeaning": "",
      "meaning": "保养费，维修费n.",
      "memory": "up向上 + keep保持，向好的方向保持——保养",
      "segments": []
@@ -928,7 +928,7 @@
     {
      "word": "up-to-date",
      "root": "up",
-     "rootMeaning": "up",
+     "rootMeaning": "",
      "meaning": "最新的，最近的adj.",
      "memory": "up上面 + to + date时期，越上面的时间越接近现在",
      "segments": []
@@ -936,7 +936,7 @@
     {
      "word": "downside",
      "root": "down",
-     "rootMeaning": "down",
+     "rootMeaning": "",
      "meaning": "不利的一面n.",
      "memory": "down下面 + side面",
      "segments": []
@@ -944,7 +944,7 @@
     {
      "word": "download",
      "root": "down",
-     "rootMeaning": "down",
+     "rootMeaning": "",
      "meaning": "下载v. 下载的数据n.",
      "memory": "down下面 + load载入",
      "segments": []
@@ -952,7 +952,7 @@
     {
      "word": "underlying",
      "root": "under",
-     "rootMeaning": "under",
+     "rootMeaning": "",
      "meaning": "潜在的，表面下的adj.",
      "memory": "under下面 + lying躺着",
      "segments": []
@@ -960,7 +960,7 @@
     {
      "word": "undermine",
      "root": "under",
-     "rootMeaning": "under",
+     "rootMeaning": "",
      "meaning": "逐渐削弱（信心，权威）v.",
      "memory": "under下面 + mine挖矿/我的，我下面的小弟们势力被削弱了",
      "segments": []
@@ -1240,7 +1240,7 @@
     {
      "word": "state",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "国家，状态n. 国家的adj. 陈述v.",
      "memory": "站得稳定，状态稳定，国家稳定，说话稳重——陈述",
      "segments": []
@@ -1248,7 +1248,7 @@
     {
      "word": "statement",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "声明，说法n.",
      "memory": "ment名词，表行为，结果，物",
      "segments": []
@@ -1256,7 +1256,7 @@
     {
      "word": "statist",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "中央集权论者，统计学者n.",
      "memory": "state国家 + ist人，管理国家的人，善于管理国家的人善于统计学",
      "segments": []
@@ -1264,7 +1264,7 @@
     {
      "word": "statistical",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "统计学的adj.",
      "memory": "ic形容词 + al形容词",
      "segments": []
@@ -1272,7 +1272,7 @@
     {
      "word": "statistically",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "统计学地adv.",
      "memory": "ly副词",
      "segments": []
@@ -1280,7 +1280,7 @@
     {
      "word": "statistics",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "统计学n.",
      "memory": "ics名词，表示学科，学术",
      "segments": []
@@ -1288,7 +1288,7 @@
     {
      "word": "statistician",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "统计学家n.",
      "memory": "ian表人",
      "segments": []
@@ -1296,7 +1296,7 @@
     {
      "word": "stake",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "股份，重大利害关系n. 以..打赌v.",
      "memory": "对比：state",
      "segments": []
@@ -1304,7 +1304,7 @@
     {
      "word": "restate",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "重申v.",
      "memory": "re重新 + state陈述",
      "segments": []
@@ -1312,7 +1312,7 @@
     {
      "word": "overstate",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "夸大v.",
      "memory": "over过度 + state陈述",
      "segments": []
@@ -1320,7 +1320,7 @@
     {
      "word": "estate",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "地产n.",
      "memory": "联想：e一 + state站，一座座站立在那里的地产",
      "segments": []
@@ -1328,7 +1328,7 @@
     {
      "word": "status",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "地位，状况n.",
      "memory": "联想：us我们，我们当下所站的情况",
      "segments": []
@@ -1336,7 +1336,7 @@
     {
      "word": "statute",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "法规n.",
      "memory": "ute名词，站得住脚的法令（特指某一条法规，law是统称）",
      "segments": []
@@ -1344,7 +1344,7 @@
     {
      "word": "obstacle",
      "root": "stat",
-     "rootMeaning": "stat",
+     "rootMeaning": "",
      "meaning": "障碍，障碍物n.",
      "memory": "ob反 + sta站 + acle名词 / cle出来",
      "segments": []
@@ -1440,7 +1440,7 @@
     {
      "word": "insist",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "坚持v.",
      "memory": "in里面 + sist站，站在某个观点里——坚持某个观点",
      "segments": []
@@ -1448,7 +1448,7 @@
     {
      "word": "insistence",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "坚持，坚持主张n.",
      "memory": "ence名词，表性质，状态",
      "segments": []
@@ -1456,7 +1456,7 @@
     {
      "word": "assist",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "帮助v.",
      "memory": "as朝向 + sist站，走过来站你一旁——帮助",
      "segments": []
@@ -1464,7 +1464,7 @@
     {
      "word": "assistance",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "帮助n.",
      "memory": "ance名词，表性质，状态",
      "segments": []
@@ -1472,7 +1472,7 @@
     {
      "word": "assistant",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "助理n. 助理的adj.",
      "memory": "ant名词/形容词",
      "segments": []
@@ -1480,7 +1480,7 @@
     {
      "word": "consist",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "由..组成，在于v.",
      "memory": "con一起 + sist站",
      "segments": []
@@ -1488,7 +1488,7 @@
     {
      "word": "consistent",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "一致的，持续的adj.",
      "memory": "ent形容词",
      "segments": []
@@ -1496,7 +1496,7 @@
     {
      "word": "inconsistent",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "反复无常的，不一致的adj.",
      "memory": "in否定前缀",
      "segments": []
@@ -1504,7 +1504,7 @@
     {
      "word": "consistently",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "持续地adv.",
      "memory": "ly副词",
      "segments": []
@@ -1512,7 +1512,7 @@
     {
      "word": "persist",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "坚持，持续存在v.",
      "memory": "per前面，贯穿始终 + sist站",
      "segments": []
@@ -1520,7 +1520,7 @@
     {
      "word": "persistence",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "坚持n.",
      "memory": "ence名词，表性质，状态",
      "segments": []
@@ -1528,7 +1528,7 @@
     {
      "word": "persistent",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "坚持不懈的，持续的adj.",
      "memory": "ent形容词",
      "segments": []
@@ -1536,7 +1536,7 @@
     {
      "word": "resist",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "抵制，抗拒v.",
      "memory": "re反，相对 + sist站",
      "segments": []
@@ -1544,7 +1544,7 @@
     {
      "word": "resistance",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "抵制，耐力，阻力n.",
      "memory": "ance名词，表性质，状态",
      "segments": []
@@ -1552,7 +1552,7 @@
     {
      "word": "resistant",
      "root": "sist=stand",
-     "rootMeaning": "sist=stand 站",
+     "rootMeaning": "站",
      "meaning": "抵制的，耐..的adj.",
      "memory": "ant形容词",
      "segments": []
@@ -2301,40 +2301,40 @@
     },
     {
      "word": "president",
-     "root": "side 旁边 =sit坐",
-     "rootMeaning": "side 旁边 =sit坐",
+     "root": "side",
+     "rootMeaning": "旁边 =sit坐",
      "meaning": "主席，总统，总裁，校长n.",
      "memory": "pre前面 + side坐 + ent人",
      "segments": []
     },
     {
      "word": "presidential",
-     "root": "side 旁边 =sit坐",
-     "rootMeaning": "side 旁边 =sit坐",
+     "root": "side",
+     "rootMeaning": "旁边 =sit坐",
      "meaning": "总统的adj.",
      "memory": "ial形容词",
      "segments": []
     },
     {
      "word": "aside",
-     "root": "side 旁边 =sit坐",
-     "rootMeaning": "side 旁边 =sit坐",
+     "root": "side",
+     "rootMeaning": "旁边 =sit坐",
      "meaning": "到旁边adv.",
      "memory": "a强调 + side旁边",
      "segments": []
     },
     {
      "word": "subsidy",
-     "root": "side 旁边 =sit坐",
-     "rootMeaning": "side 旁边 =sit坐",
+     "root": "side",
+     "rootMeaning": "旁边 =sit坐",
      "meaning": "补贴n.",
      "memory": "sub下面 + sidy坐/放，放下钱",
      "segments": []
     },
     {
      "word": "subsidise/ize",
-     "root": "side 旁边 =sit坐",
-     "rootMeaning": "side 旁边 =sit坐",
+     "root": "side",
+     "rootMeaning": "旁边 =sit坐",
      "meaning": "补贴，资助v.",
      "memory": "ise/ize，表示动词",
      "segments": []
@@ -2598,7 +2598,7 @@
     {
      "word": "search",
      "root": "search",
-     "rootMeaning": "search",
+     "rootMeaning": "",
      "meaning": "搜索，调查v.n.",
      "memory": "sea海 + rch(rich 丰富)，大海里有丰富资源，一起来搜索",
      "segments": []
@@ -2606,7 +2606,7 @@
     {
      "word": "research",
      "root": "search",
-     "rootMeaning": "search",
+     "rootMeaning": "",
      "meaning": "研究，调查v.n.",
      "memory": "re强调/反复 + search搜索",
      "segments": []
@@ -2614,7 +2614,7 @@
     {
      "word": "researcher",
      "root": "search",
-     "rootMeaning": "search",
+     "rootMeaning": "",
      "meaning": "研究员，调查者n.",
      "memory": "er人",
      "segments": []
@@ -3260,7 +3260,7 @@
     {
      "word": "testify",
      "root": "test",
-     "rootMeaning": "test",
+     "rootMeaning": "",
      "meaning": "证实，作证v.",
      "memory": "ify动词",
      "segments": []
@@ -3268,7 +3268,7 @@
     {
      "word": "contest",
      "root": "test",
-     "rootMeaning": "test",
+     "rootMeaning": "",
      "meaning": "比赛，争夺n. 争辩v.",
      "memory": "con一起 + test测试",
      "segments": []
@@ -3276,7 +3276,7 @@
     {
      "word": "protest",
      "root": "test",
-     "rootMeaning": "test",
+     "rootMeaning": "",
      "meaning": "抗议n.v.",
      "memory": "pro前 + test作证，冲上去作证——法官大人我抗议！！",
      "segments": []
@@ -3523,40 +3523,40 @@
     },
     {
      "word": "civil",
-     "root": "civ → city 城市",
-     "rootMeaning": "civ → city 城市",
+     "root": "civ → city",
+     "rootMeaning": "城市",
      "meaning": "公民的，政府的，有礼貌的adj.",
      "memory": "同源：city城市",
      "segments": []
     },
     {
      "word": "civilian",
-     "root": "civ → city 城市",
-     "rootMeaning": "civ → city 城市",
+     "root": "civ → city",
+     "rootMeaning": "城市",
      "meaning": "平民n.",
      "memory": "ian表人",
      "segments": []
     },
     {
      "word": "civility",
-     "root": "civ → city 城市",
-     "rootMeaning": "civ → city 城市",
+     "root": "civ → city",
+     "rootMeaning": "城市",
      "meaning": "礼貌n.",
      "memory": "ity名词",
      "segments": []
     },
     {
      "word": "civilised/ized",
-     "root": "civ → city 城市",
-     "rootMeaning": "civ → city 城市",
+     "root": "civ → city",
+     "rootMeaning": "城市",
      "meaning": "有礼貌的，文明的adj.",
      "memory": "ise/ize，表示动词，ed的",
      "segments": []
     },
     {
      "word": "civilisation/zation",
-     "root": "civ → city 城市",
-     "rootMeaning": "civ → city 城市",
+     "root": "civ → city",
+     "rootMeaning": "城市",
      "meaning": "文明n.",
      "memory": "ation名词",
      "segments": []
@@ -4825,24 +4825,24 @@
     },
     {
      "word": "estimate",
-     "root": "estim =value价值",
-     "rootMeaning": "estim =value价值",
+     "root": "estim =value",
+     "rootMeaning": "价值",
      "meaning": "估算v. 估计n.",
      "memory": "一丝丝时间 ate动词",
      "segments": []
     },
     {
      "word": "overestimate",
-     "root": "estim =value价值",
-     "rootMeaning": "estim =value价值",
+     "root": "estim =value",
+     "rootMeaning": "价值",
      "meaning": "高估v.n.",
      "memory": "一丝丝时间 over过度",
      "segments": []
     },
     {
      "word": "underestimate",
-     "root": "estim =value价值",
-     "rootMeaning": "estim =value价值",
+     "root": "estim =value",
+     "rootMeaning": "价值",
      "meaning": "低估v.n.",
      "memory": "一丝丝时间 under下面",
      "segments": []
@@ -5082,7 +5082,7 @@
     {
      "word": "consider",
      "root": "sider",
-     "rootMeaning": "=star星星",
+     "rootMeaning": "星星",
      "meaning": "考虑，认为v.",
      "memory": "con来 + sider星星，来通过占星来思考",
      "segments": []
@@ -5090,7 +5090,7 @@
     {
      "word": "reconsider",
      "root": "sider",
-     "rootMeaning": "=star星星",
+     "rootMeaning": "星星",
      "meaning": "重新考虑v.",
      "memory": "re重新 + consider考虑",
      "segments": []
@@ -5098,7 +5098,7 @@
     {
      "word": "considerable",
      "root": "sider",
-     "rootMeaning": "=star星星",
+     "rootMeaning": "星星",
      "meaning": "相当大/多/重要的adj.",
      "memory": "able可以",
      "segments": []
@@ -5106,7 +5106,7 @@
     {
      "word": "considerably",
      "root": "sider",
-     "rootMeaning": "=star星星",
+     "rootMeaning": "星星",
      "meaning": "相当多地adv.",
      "memory": "ably副词",
      "segments": []
@@ -5114,7 +5114,7 @@
     {
      "word": "consideration",
      "root": "sider",
-     "rootMeaning": "=star星星",
+     "rootMeaning": "星星",
      "meaning": "考虑，关心，必须考虑的事n.",
      "memory": "ation名词",
      "segments": []
@@ -5233,104 +5233,104 @@
     },
     {
      "word": "favo(u)r",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "更喜欢，赞成v.n.",
      "memory": "谐音：飞吻",
      "segments": []
     },
     {
      "word": "favo(u)rable",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "赞同的，更具优势的，有利的adj.",
      "memory": "able可以",
      "segments": []
     },
     {
      "word": "unfavo(u)rable",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "不赞同的，不利的adj.",
      "memory": "un否定前缀",
      "segments": []
     },
     {
      "word": "favo(u)rably",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "赞同地，更具优势地adv.",
      "memory": "ably副词",
      "segments": []
     },
     {
      "word": "favo(u)ritism",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "偏袒n.",
      "memory": "favourite喜爱的 + ism表示..主义，或状态行为",
      "segments": []
     },
     {
      "word": "prefer",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "更喜欢，宁愿v.",
      "memory": "pre提前 + fer带来，联想：餐厅自带饮料，因为更喜欢",
      "segments": []
     },
     {
      "word": "preference",
-     "root": "favor",
-     "rootMeaning": "喜爱",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "偏好，优先考虑n.",
      "memory": "ence名词，表性质，状态",
      "segments": []
     },
     {
      "word": "truth",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "真实，真理，实际情况n.",
      "memory": "th名词后缀。来自ture真实的。",
      "segments": []
     },
     {
      "word": "truly",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "真正地adv.",
      "memory": "ly副词",
      "segments": []
     },
     {
      "word": "trust",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "相信，托付v.n.",
      "memory": "st名词后缀。tru相信 + st是他，相信是他才能完成——托付",
      "segments": []
     },
     {
      "word": "distrust",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "不信任，怀疑v.n.",
      "memory": "dis否定",
      "segments": []
     },
     {
      "word": "entrust",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "委托v.",
      "memory": "en使得 + trust相信信任",
      "segments": []
     },
     {
      "word": "trustworthiness",
-     "root": "tru =true 相信，真实",
-     "rootMeaning": "tru =true 相信，真实",
+     "root": "tru =true",
+     "rootMeaning": "相信，真实",
      "meaning": "可信度n.",
      "memory": "trust相信 + worthy值得 + ness名词",
      "segments": []
@@ -5361,32 +5361,32 @@
     },
     {
      "word": "common",
-     "root": "mon =move 移动，交换",
-     "rootMeaning": "mon =move 移动，交换",
+     "root": "mon =move",
+     "rootMeaning": "移动，交换",
      "meaning": "常见的，普通的，公共的adj.",
      "memory": "com一起 + mon交换，互换东西，你的就是我的，我的就是你的",
      "segments": []
     },
     {
      "word": "commonly",
-     "root": "mon =move 移动，交换",
-     "rootMeaning": "mon =move 移动，交换",
+     "root": "mon =move",
+     "rootMeaning": "移动，交换",
      "meaning": "通常adv.",
      "memory": "ly副词",
      "segments": []
     },
     {
      "word": "commonness",
-     "root": "mon =move 移动，交换",
-     "rootMeaning": "mon =move 移动，交换",
+     "root": "mon =move",
+     "rootMeaning": "移动，交换",
      "meaning": "平凡，共性n.",
      "memory": "ness名词",
      "segments": []
     },
     {
      "word": "commonality",
-     "root": "mon =move 移动，交换",
-     "rootMeaning": "mon =move 移动，交换",
+     "root": "mon =move",
+     "rootMeaning": "移动，交换",
      "meaning": "共性，民众n.",
      "memory": "al形容词 + ity名词",
      "segments": []
@@ -5394,7 +5394,7 @@
     {
      "word": "promote",
      "root": "mot/mut",
-     "rootMeaning": "mot/mut",
+     "rootMeaning": "",
      "meaning": "促进，晋升v.",
      "memory": "pro前 + mote移动，向前移动",
      "segments": []
@@ -5402,7 +5402,7 @@
     {
      "word": "promotion",
      "root": "mot/mut",
-     "rootMeaning": "mot/mut",
+     "rootMeaning": "",
      "meaning": "晋升n.",
      "memory": "ion名词",
      "segments": []
@@ -5410,7 +5410,7 @@
     {
      "word": "prompt",
      "root": "mot/mut",
-     "rootMeaning": "mot/mut",
+     "rootMeaning": "",
      "meaning": "促进v. 迅速的adj.",
      "memory": "对比：promote=move 移动",
      "segments": []
@@ -5418,7 +5418,7 @@
     {
      "word": "commute",
      "root": "mot/mut",
-     "rootMeaning": "mot/mut",
+     "rootMeaning": "",
      "meaning": "上下班返程v.n.",
      "memory": "com一起 + mute移动，一起来来回回上下班",
      "segments": []
@@ -5426,7 +5426,7 @@
     {
      "word": "commuter",
      "root": "mot/mut",
-     "rootMeaning": "mot/mut",
+     "rootMeaning": "",
      "meaning": "上下班的人n.",
      "memory": "er人",
      "segments": []
@@ -5960,7 +5960,7 @@
     {
      "word": "emotion",
      "root": "emote",
-     "rootMeaning": "emote 表现感情",
+     "rootMeaning": "表现感情",
      "meaning": "情绪n.",
      "memory": "网络语emo ion名词",
      "segments": []
@@ -5968,7 +5968,7 @@
     {
      "word": "emotional",
      "root": "emote",
-     "rootMeaning": "emote 表现感情",
+     "rootMeaning": "表现感情",
      "meaning": "情绪的，情感上的adj.",
      "memory": "网络语emo al形容词",
      "segments": []
@@ -5976,7 +5976,7 @@
     {
      "word": "emotionally",
      "root": "emote",
-     "rootMeaning": "emote 表现感情",
+     "rootMeaning": "表现感情",
      "meaning": "情感上，情感冲动地adv.",
      "memory": "网络语emo ly副词",
      "segments": []
@@ -6120,7 +6120,7 @@
     {
      "word": "describe",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "描述，描绘v.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 de下 + scribe写，写下来",
      "segments": []
@@ -6128,7 +6128,7 @@
     {
      "word": "description",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "描述n.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 ion名词",
      "segments": []
@@ -6136,7 +6136,7 @@
     {
      "word": "subscribe",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "订阅，认购股份，定期捐款v.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 sub下面 + scribe写，写下你的名字表示同意",
      "segments": []
@@ -6144,7 +6144,7 @@
     {
      "word": "subscriber",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "订阅人n.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 er人",
      "segments": []
@@ -6152,7 +6152,7 @@
     {
      "word": "subscription",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "订阅n.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 ion名词",
      "segments": []
@@ -6160,7 +6160,7 @@
     {
      "word": "prescription",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "药方n.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 pre预先 + script写 + ion名词，提前写好药方",
      "segments": []
@@ -6168,7 +6168,7 @@
     {
      "word": "manuscript",
      "root": "scribe =write",
-     "rootMeaning": "scribe =write",
+     "rootMeaning": "",
      "meaning": "手稿，原稿n.",
      "memory": "sc手抄 + ribe日本，手抄日记本 记忆：sc手抄 + ribe日本，联想：手抄日记本 manu手 + script写",
      "segments": []
@@ -6631,16 +6631,16 @@
     },
     {
      "word": "controversy",
-     "root": "uni",
-     "rootMeaning": "单个",
+     "root": "vers/verse",
+     "rootMeaning": "转",
      "meaning": "公开争论n.",
      "memory": "unit单元 contro相反 + vers转 + y名词，反着转—抬杠",
      "segments": []
     },
     {
      "word": "controversial",
-     "root": "uni",
-     "rootMeaning": "单个",
+     "root": "vers/verse",
+     "rootMeaning": "转",
      "meaning": "引起争论的adj.",
      "memory": "unit单元 al形容词",
      "segments": []
@@ -6711,48 +6711,48 @@
     },
     {
      "word": "graduate",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "毕业v. 大学毕业生n.",
      "memory": "ate动词，也可做名词。一级级升等级到毕业",
      "segments": []
     },
     {
      "word": "graduation",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "毕业，毕业典礼n.",
      "memory": "ion名词",
      "segments": []
     },
     {
      "word": "undergraduate",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "大学本科生n.",
      "memory": "under下，没达到 + graduate毕业，还没有毕业",
      "segments": []
     },
     {
      "word": "postgraduate",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "研究生n.",
      "memory": "post后/快递 + graduate毕业，毕业后",
      "segments": []
     },
     {
      "word": "gradual",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "逐渐的adj.",
      "memory": "al形容词",
      "segments": []
     },
     {
      "word": "gradually",
-     "root": "gradu =grade 等级，步",
-     "rootMeaning": "gradu =grade 等级，步",
+     "root": "gradu =grade",
+     "rootMeaning": "等级，步",
      "meaning": "逐渐地adv.",
      "memory": "ly副词",
      "segments": []
@@ -7950,7 +7950,7 @@
     {
      "word": "popular",
      "root": "popul",
-     "rootMeaning": "=people 人们",
+     "rootMeaning": "人们",
      "meaning": "流行的，受欢迎的，普遍的adj.",
      "memory": "ar形容词",
      "segments": []
@@ -7958,7 +7958,7 @@
     {
      "word": "popularity",
      "root": "popul",
-     "rootMeaning": "=people 人们",
+     "rootMeaning": "人们",
      "meaning": "受欢迎n.",
      "memory": "ity名词",
      "segments": []
@@ -7966,7 +7966,7 @@
     {
      "word": "popularise/ize",
      "root": "popul",
-     "rootMeaning": "=people 人们",
+     "rootMeaning": "人们",
      "meaning": "使普及，宣传v.",
      "memory": "ise/ize，表示动词",
      "segments": []
@@ -8237,24 +8237,24 @@
     },
     {
      "word": "slave",
-     "root": "safe",
-     "rootMeaning": "安全的adj.",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "奴隶n.",
      "memory": "save拯救 + l一",
      "segments": []
     },
     {
      "word": "slavery",
-     "root": "safe",
-     "rootMeaning": "安全的adj.",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "奴隶身份，奴隶制n.",
      "memory": "ry名词 对比save",
      "segments": []
     },
     {
      "word": "enslavement",
-     "root": "safe",
-     "rootMeaning": "安全的adj.",
+     "root": "",
+     "rootMeaning": "",
      "meaning": "奴役，束缚n.",
      "memory": "en使 + slave奴隶 + ment名词，使成为奴隶",
      "segments": []
@@ -8668,7 +8668,7 @@
     {
      "word": "mechanize",
      "root": "mechan",
-     "rootMeaning": "=machine 机器",
+     "rootMeaning": "机器",
      "meaning": "使机械化v.",
      "memory": "me我 + chan铲 ise/ize，表示动词",
      "segments": []
@@ -8676,7 +8676,7 @@
     {
      "word": "mechanical",
      "root": "mechan",
-     "rootMeaning": "=machine 机器",
+     "rootMeaning": "机器",
      "meaning": "机械的adj.",
      "memory": "me我 + chan铲 ical形容词",
      "segments": []
@@ -8684,7 +8684,7 @@
     {
      "word": "mechanism",
      "root": "mechan",
-     "rootMeaning": "=machine 机器",
+     "rootMeaning": "机器",
      "meaning": "机械装置，机制n.",
      "memory": "me我 + chan铲 ism，表示..主义，或状态行为",
      "segments": []
