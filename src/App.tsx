@@ -351,6 +351,7 @@ export default function App() {
           }
           totals={{ book1: books.book1.count, book2: books.book2.count }}
           bookNames={{ book1: books.book1.name, book2: books.book2.name }}
+          dailyGoal={settings.dailyGoal ?? 30}
           onBack={() => setScreen('home')}
         />
       )}

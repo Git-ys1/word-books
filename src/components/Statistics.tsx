@@ -27,13 +27,24 @@ interface Props {
   bookNames: Record<BookId, string>
   /** 书1 的词根组，用来算「词根掌握度」；null 表示还没加载完 */
   rootGroups: { root: string; meaning: string; entries: { id: string }[] }[] | null
+  /** 每日新学目标，来自设置 */
+  dailyGoal: number
   onBack: () => void
 }
 
-/** 每日目标：新学 30 词。可后续做成设置项 */
-const DAILY_GOAL = 30
+/** 每日目标的兜底默认值（老数据没有 dailyGoal 字段时用） */
+const DEFAULT_DAILY_GOAL = 30
 
-export default function Statistics({ stats, wrongCounts, totals, bookNames, rootGroups, onBack }: Props) {
+export default function Statistics({
+  stats,
+  wrongCounts,
+  totals,
+  bookNames,
+  rootGroups,
+  dailyGoal,
+  onBack,
+}: Props) {
+  const DAILY_GOAL = dailyGoal > 0 ? dailyGoal : DEFAULT_DAILY_GOAL
   /** 最近 N 天的日期键（含今天，按时间正序） */
   const recentDays = (n: number) => {
     const out: string[] = []

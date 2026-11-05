@@ -60,6 +60,7 @@ export const DEFAULT_SETTINGS: Settings = {
   retryGap: 8,
   autoExpand: false,
   haptic: true,
+  dailyGoal: 30,
 }
 
 /**

@@ -145,6 +145,8 @@ export interface Settings {
   autoExpand: boolean
   /** 是否开启震动反馈 */
   haptic: boolean
+  /** 每日新学目标（数据看板的环形完成度用），默认 30 */
+  dailyGoal?: number
 }
 
 /* ============================ 四选一 ============================ */

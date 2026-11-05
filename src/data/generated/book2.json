@@ -154,7 +154,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "社会的，社交的adj.",
-     "memory": "soc像 soci社会 + al形容词",
+     "memory": "soci社会 + al形容词",
      "segments": []
     },
     {
@@ -162,7 +162,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "缺乏社交的adj.",
-     "memory": "soc像 a相反 + social社交的",
+     "memory": "a相反 + social社交的",
      "segments": []
     },
     {
@@ -170,7 +170,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "好交际的adj.",
-     "memory": "soc像 soci社会 + able可以",
+     "memory": "soci社会 + able可以",
      "segments": []
     },
     {
@@ -178,7 +178,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "交往v.",
-     "memory": "soc像 social社交 + ise动词",
+     "memory": "social社交 + ise动词",
      "segments": []
     },
     {
@@ -186,7 +186,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "社会，社团n.",
-     "memory": "soc像 soci社会 + ety名词",
+     "memory": "soci社会 + ety名词",
      "segments": []
     },
     {
@@ -194,7 +194,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "社会学家n.",
-     "memory": "soc像 soci社会 + logy学 + ist人",
+     "memory": "soci社会 + logy学 + ist人",
      "segments": []
     },
     {
@@ -202,7 +202,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "同事，伙伴n. 联系v.",
-     "memory": "soc像 谐音：我so喜爱她，as去 + soci社交 + ate动词",
+     "memory": "谐音：我so喜爱她，as去 + soci社交 + ate动词",
      "segments": []
     },
     {
@@ -210,7 +210,7 @@
      "root": "soci",
      "rootMeaning": "群体的 社会的",
      "meaning": "联系，交往，联盟，协会n.",
-     "memory": "soc像 ion名词，表动作，状态，物品",
+     "memory": "ion名词，表动作，状态，物品",
      "segments": []
     },
     {
@@ -530,7 +530,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选举v.",
-     "memory": "etc e出 + lect选",
+     "memory": "e出 + lect选",
      "segments": []
     },
     {
@@ -538,7 +538,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选举n.",
-     "memory": "etc ion名词，表动作，状态，物品",
+     "memory": "ion名词，表动作，状态，物品",
      "segments": []
     },
     {
@@ -546,7 +546,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选举的，选举人的adj.",
-     "memory": "etc or表人 + al形容词",
+     "memory": "or表人 + al形容词",
      "segments": []
     },
     {
@@ -554,7 +554,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选择v.",
-     "memory": "etc se分开 + lect选",
+     "memory": "se分开 + lect选",
      "segments": []
     },
     {
@@ -562,7 +562,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选择n.",
-     "memory": "etc ion名词，表动作，状态，物品",
+     "memory": "ion名词，表动作，状态，物品",
      "segments": []
     },
     {
@@ -570,7 +570,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "选择性的adj.",
-     "memory": "etc ive形容词，表有..性质的",
+     "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
@@ -578,7 +578,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "收集，募捐v.",
-     "memory": "etc col一起 + lect选，选出来放在一起",
+     "memory": "col一起 + lect选，选出来放在一起",
      "segments": []
     },
     {
@@ -586,7 +586,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "收藏品，募捐n.",
-     "memory": "etc ion名词，表动作，状态，物品",
+     "memory": "ion名词，表动作，状态，物品",
      "segments": []
     },
     {
@@ -594,7 +594,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "集体的，总的adj.",
-     "memory": "etc ive形容词，表有..性质的",
+     "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
@@ -602,7 +602,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "不重视，疏忽v. 忽视n.",
-     "memory": "etc neg否定 + lect选，不选=忽视",
+     "memory": "neg否定 + lect选，不选=忽视",
      "segments": []
     },
     {
@@ -610,7 +610,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "智力，才智超群的人n.",
-     "memory": "etc intel在..中间 + lect选",
+     "memory": "intel在..中间 + lect选",
      "segments": []
     },
     {
@@ -618,7 +618,7 @@
      "root": "lect",
      "rootMeaning": "选择",
      "meaning": "智力的adj. 知识分子n.",
-     "memory": "etc ual形容词，有..性质的",
+     "memory": "ual形容词，有..性质的",
      "segments": []
     },
     {
@@ -858,7 +858,7 @@
      "root": "over",
      "rootMeaning": "",
      "meaning": "否决v.",
-     "memory": "over上面 + rule统治，管理，上层管理者拥有否决权",
+     "memory": "+ rule统治，管理，上层管理者拥有否决权",
      "segments": []
     },
     {
@@ -866,7 +866,7 @@
      "root": "over",
      "rootMeaning": "",
      "meaning": "俯视，忽视v.",
-     "memory": "over上面 + look看",
+     "memory": "+ look看",
      "segments": []
     },
     {
@@ -938,7 +938,7 @@
      "root": "down",
      "rootMeaning": "",
      "meaning": "不利的一面n.",
-     "memory": "down下面 + side面",
+     "memory": "+ side面",
      "segments": []
     },
     {
@@ -946,7 +946,7 @@
      "root": "down",
      "rootMeaning": "",
      "meaning": "下载v. 下载的数据n.",
-     "memory": "down下面 + load载入",
+     "memory": "+ load载入",
      "segments": []
     },
     {
@@ -954,7 +954,7 @@
      "root": "under",
      "rootMeaning": "",
      "meaning": "潜在的，表面下的adj.",
-     "memory": "under下面 + lying躺着",
+     "memory": "+ lying躺着",
      "segments": []
     },
     {
@@ -962,7 +962,7 @@
      "root": "under",
      "rootMeaning": "",
      "meaning": "逐渐削弱（信心，权威）v.",
-     "memory": "under下面 + mine挖矿/我的，我下面的小弟们势力被削弱了",
+     "memory": "+ mine挖矿/我的，我下面的小弟们势力被削弱了",
      "segments": []
     },
     {
@@ -1146,7 +1146,7 @@
      "root": "pear",
      "rootMeaning": "看见",
      "meaning": "出现，看起来v.",
-     "memory": "ear 听 ap朝向 + pear看见",
+     "memory": "ap朝向 + pear看见",
      "segments": []
     },
     {
@@ -1154,7 +1154,7 @@
      "root": "pear",
      "rootMeaning": "看见",
      "meaning": "外貌，外观n.",
-     "memory": "ear 听 ance名词，看到的外观",
+     "memory": "ance名词，看到的外观",
      "segments": []
     },
     {
@@ -1162,7 +1162,7 @@
      "root": "pear",
      "rootMeaning": "看见",
      "meaning": "消失v.",
-     "memory": "ear 听 dis否定",
+     "memory": "dis否定",
      "segments": []
     },
     {
@@ -1170,7 +1170,7 @@
      "root": "pear",
      "rootMeaning": "看见",
      "meaning": "消失n.",
-     "memory": "ear 听 ance名词，表性质，状态",
+     "memory": "ance名词，表性质，状态",
      "segments": []
     },
     {
@@ -1568,7 +1568,7 @@
      "root": "minister",
      "rootMeaning": "部长",
      "meaning": "牧师，部长n.",
-     "memory": "monitor班长 mini小 + ster姐姐 ，小姐姐是部长",
+     "memory": "mini小 + ster姐姐 ，小姐姐是部长",
      "segments": []
     },
     {
@@ -1576,7 +1576,7 @@
      "root": "minister",
      "rootMeaning": "部长",
      "meaning": "管理v.",
-     "memory": "monitor班长 ad去 + minister部长，去做部长——管理",
+     "memory": "ad去 + minister部长，去做部长——管理",
      "segments": []
     },
     {
@@ -1584,7 +1584,7 @@
      "root": "minister",
      "rootMeaning": "部长",
      "meaning": "管理，管理部门，政府n.",
-     "memory": "monitor班长 ation名词，表行为，过程",
+     "memory": "ation名词，表行为，过程",
      "segments": []
     },
     {
@@ -1592,7 +1592,7 @@
      "root": "minister",
      "rootMeaning": "部长",
      "meaning": "管理的，行政的adj.",
-     "memory": "monitor班长 ative形容词",
+     "memory": "ative形容词",
      "segments": []
     },
     {
@@ -3070,7 +3070,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "科学，（人文、社会）学科n.",
-     "memory": "I see sci知道 + ence名词，让人们知道这个世界的是科学",
+     "memory": "sci知道 + ence名词，让人们知道这个世界的是科学",
      "segments": []
     },
     {
@@ -3078,7 +3078,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "科学的，严谨的adj.",
-     "memory": "I see ent形容词 + ific形容词",
+     "memory": "ent形容词 + ific形容词",
      "segments": []
     },
     {
@@ -3086,7 +3086,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "科学家n.",
-     "memory": "I see ist人",
+     "memory": "ist人",
      "segments": []
     },
     {
@@ -3094,7 +3094,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "神经系统科学家n.",
-     "memory": "I see neuro神经，谐音：牛肉",
+     "memory": "neuro神经，谐音：牛肉",
      "segments": []
     },
     {
@@ -3102,7 +3102,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "良知，内疚n.",
-     "memory": "I see 联想：con一起 + science科学，一起研究科学——全都知道",
+     "memory": "联想：con一起 + science科学，一起研究科学——全都知道",
      "segments": []
     },
     {
@@ -3110,7 +3110,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "意识到的，注意的，有知觉的adj.",
-     "memory": "I see con强调 + sci知道 + ous形容词，强调可以感知到",
+     "memory": "con强调 + sci知道 + ous形容词，强调可以感知到",
      "segments": []
     },
     {
@@ -3118,7 +3118,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "有意识地，刻意地adv.",
-     "memory": "I see ly副词",
+     "memory": "ly副词",
      "segments": []
     },
     {
@@ -3126,7 +3126,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "意识，知觉，关注n.",
-     "memory": "I see ness名词",
+     "memory": "ness名词",
      "segments": []
     },
     {
@@ -3134,7 +3134,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "无意识的，未察觉的adj.",
-     "memory": "I see un否定前缀",
+     "memory": "un否定前缀",
      "segments": []
     },
     {
@@ -3142,7 +3142,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "未察觉地，不刻意地adv.",
-     "memory": "I see ly副词",
+     "memory": "ly副词",
      "segments": []
     },
     {
@@ -3150,7 +3150,7 @@
      "root": "sci",
      "rootMeaning": "知道",
      "meaning": "下意识的adj.",
-     "memory": "I see sub下面",
+     "memory": "sub下面",
      "segments": []
     },
     {
@@ -3686,7 +3686,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "提供，规定v.",
-     "memory": "video影像 pro前 + vide看，提前看好需要多少就提供多少；提前看到问题",
+     "memory": "pro前 + vide看，提前看好需要多少就提供多少；提前看到问题",
      "segments": []
     },
     {
@@ -3694,7 +3694,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "提供者n.",
-     "memory": "video影像 er人",
+     "memory": "er人",
      "segments": []
     },
     {
@@ -3702,7 +3702,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "规定，条款n.",
-     "memory": "video影像 ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -3710,7 +3710,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "以..为条件，假如conj.",
-     "memory": "video影像 连词，提供条件",
+     "memory": "连词，提供条件",
      "segments": []
     },
     {
@@ -3718,7 +3718,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "明显的adj.",
-     "memory": "video影像 e外面 + vide看 + ent形容词，暴露在外面被看到的",
+     "memory": "e外面 + vide看 + ent形容词，暴露在外面被看到的",
      "segments": []
     },
     {
@@ -3726,7 +3726,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "证据n.",
-     "memory": "video影像 ence名词，暴露在外面被看到的线索",
+     "memory": "ence名词，暴露在外面被看到的线索",
      "segments": []
     },
     {
@@ -3734,7 +3734,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "建议，劝告v.",
-     "memory": "video影像 ad去 + vise看，联想：建议你去看看",
+     "memory": "ad去 + vise看，联想：建议你去看看",
      "segments": []
     },
     {
@@ -3742,7 +3742,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "建议，劝告n.",
-     "memory": "video影像 对比：advise",
+     "memory": "对比：advise",
      "segments": []
     },
     {
@@ -3750,7 +3750,7 @@
      "root": "vid/vis",
      "rootMeaning": "看",
      "meaning": "明智的adj.",
-     "memory": "video影像 able可以，能接受建议的人——明智的",
+     "memory": "able可以，能接受建议的人——明智的",
      "segments": []
     },
     {
@@ -3966,7 +3966,7 @@
      "root": "demo",
      "rootMeaning": "人民",
      "meaning": "民主主义者n.",
-     "memory": "de得了emo的人 demo人民 + crat管理者(cat猫 + rat老鼠，猫爱管老鼠)",
+     "memory": "demo人民 + crat管理者(cat猫 + rat老鼠，猫爱管老鼠)",
      "segments": []
     },
     {
@@ -3974,7 +3974,7 @@
      "root": "demo",
      "rootMeaning": "人民",
      "meaning": "民主的adj.",
-     "memory": "de得了emo的人 ic形容词，..的",
+     "memory": "ic形容词，..的",
      "segments": []
     },
     {
@@ -3982,7 +3982,7 @@
      "root": "demo",
      "rootMeaning": "人民",
      "meaning": "使民主化v.",
-     "memory": "de得了emo的人 ise/ize，表示动词",
+     "memory": "ise/ize，表示动词",
      "segments": []
     },
     {
@@ -3990,7 +3990,7 @@
      "root": "demo",
      "rootMeaning": "人民",
      "meaning": "民主国家，民主制度，民主权利n.",
-     "memory": "de得了emo的人 cy名词",
+     "memory": "cy名词",
      "segments": []
     },
     {
@@ -3998,7 +3998,7 @@
      "root": "demo",
      "rootMeaning": "人民",
      "meaning": "流行病n.",
-     "memory": "de得了emo的人 pan到处/盘 + dem人民 + ic，到处在人群中流动",
+     "memory": "pan到处/盘 + dem人民 + ic，到处在人群中流动",
      "segments": []
     },
     {
@@ -4006,7 +4006,7 @@
      "root": "cred",
      "rootMeaning": "信任",
      "meaning": "信用，认可，学分n.",
-     "memory": "card卡 联想：cred信任 + it它",
+     "memory": "联想：cred信任 + it它",
      "segments": []
     },
     {
@@ -4014,7 +4014,7 @@
      "root": "cred",
      "rootMeaning": "信任",
      "meaning": "可信任的adj.",
-     "memory": "card卡 ible可以",
+     "memory": "ible可以",
      "segments": []
     },
     {
@@ -4022,7 +4022,7 @@
      "root": "cred",
      "rootMeaning": "信任",
      "meaning": "可信性n.",
-     "memory": "card卡 ibility，ability能力性能",
+     "memory": "ibility，ability能力性能",
      "segments": []
     },
     {
@@ -4030,7 +4030,7 @@
      "root": "cred",
      "rootMeaning": "信任",
      "meaning": "难以置信的，极好的adj.",
-     "memory": "card卡 in否定前缀",
+     "memory": "in否定前缀",
      "segments": []
     },
     {
@@ -4676,7 +4676,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "包括v.",
-     "memory": "club俱乐部 in里面 + clude关闭，关在里面，就是包括在里面",
+     "memory": "in里面 + clude关闭，关在里面，就是包括在里面",
      "segments": []
     },
     {
@@ -4684,7 +4684,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "包括的，包容性强的adj.",
-     "memory": "club俱乐部 ive形容词，表有..性质的",
+     "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
@@ -4692,7 +4692,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "得出结论，使结束v.",
-     "memory": "club俱乐部 con全部 + clude关闭，联想：晚上游乐园设施全部关闭",
+     "memory": "con全部 + clude关闭，联想：晚上游乐园设施全部关闭",
      "segments": []
     },
     {
@@ -4700,7 +4700,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "结论n.",
-     "memory": "club俱乐部 ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -4708,7 +4708,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "确凿的adj.",
-     "memory": "club俱乐部 ive形容词，表有..性质的",
+     "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
@@ -4716,7 +4716,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "无定论的adj.",
-     "memory": "club俱乐部 in否定前缀",
+     "memory": "in否定前缀",
      "segments": []
     },
     {
@@ -4724,7 +4724,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "不包括，排除v.",
-     "memory": "club俱乐部 ex外 +clude关闭，把你关在外面",
+     "memory": "ex外 +clude关闭，把你关在外面",
      "segments": []
     },
     {
@@ -4732,7 +4732,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "相互排斥的，独有的adj.",
-     "memory": "club俱乐部 ive形容词，表有..性质的",
+     "memory": "ive形容词，表有..性质的",
      "segments": []
     },
     {
@@ -4740,7 +4740,7 @@
      "root": "clud/clus",
      "rootMeaning": "关闭",
      "meaning": "排他地adv.",
-     "memory": "club俱乐部 ly副词",
+     "memory": "ly副词",
      "segments": []
     },
     {
@@ -5962,7 +5962,7 @@
      "root": "emote",
      "rootMeaning": "表现感情",
      "meaning": "情绪n.",
-     "memory": "网络语emo ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -5970,7 +5970,7 @@
      "root": "emote",
      "rootMeaning": "表现感情",
      "meaning": "情绪的，情感上的adj.",
-     "memory": "网络语emo al形容词",
+     "memory": "al形容词",
      "segments": []
     },
     {
@@ -5978,7 +5978,7 @@
      "root": "emote",
      "rootMeaning": "表现感情",
      "meaning": "情感上，情感冲动地adv.",
-     "memory": "网络语emo ly副词",
+     "memory": "ly副词",
      "segments": []
     },
     {
@@ -6386,7 +6386,7 @@
      "root": "just",
      "rootMeaning": "公平，公正，正义",
      "meaning": "正义，法官n.",
-     "memory": "just就（救） ice名词",
+     "memory": "ice名词",
      "segments": []
     },
     {
@@ -6394,7 +6394,7 @@
      "root": "just",
      "rootMeaning": "公平，公正，正义",
      "meaning": "替..辩护，证明..是正当的v.",
-     "memory": "just就（救） 联想：just正义 + i我 + fy发言，为了正义我要发言",
+     "memory": "联想：just正义 + i我 + fy发言，为了正义我要发言",
      "segments": []
     },
     {
@@ -6402,7 +6402,7 @@
      "root": "just",
      "rootMeaning": "公平，公正，正义",
      "meaning": "正当理由n.",
-     "memory": "just就（救） ation名词",
+     "memory": "ation名词",
      "segments": []
     },
     {
@@ -6578,7 +6578,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "工会，协会n.",
-     "memory": "unit单元 ion名词，某个单位—某个工会",
+     "memory": "ion名词，某个单位—某个工会",
      "segments": []
     },
     {
@@ -6586,7 +6586,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "工会主义者n.",
-     "memory": "unit单元 ist人",
+     "memory": "ist人",
      "segments": []
     },
     {
@@ -6594,7 +6594,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "统一n.",
-     "memory": "unit单元 uni单个 + fic做 + ation名词，一个个一起做",
+     "memory": "uni单个 + fic做 + ation名词，一个个一起做",
      "segments": []
     },
     {
@@ -6602,7 +6602,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "独特的adj.",
-     "memory": "unit单元 联想：uni单个 + que确，单独来看，确实很独特",
+     "memory": "联想：uni单个 + que确，单独来看，确实很独特",
      "segments": []
     },
     {
@@ -6610,7 +6610,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "独特性n.",
-     "memory": "unit单元 ness名词",
+     "memory": "ness名词",
      "segments": []
     },
     {
@@ -6618,7 +6618,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "宇宙n.",
-     "memory": "unit单元 uni统一 + verse转，所有星体统一转",
+     "memory": "uni统一 + verse转，所有星体统一转",
      "segments": []
     },
     {
@@ -6626,7 +6626,7 @@
      "root": "uni",
      "rootMeaning": "单个",
      "meaning": "宇宙的，普遍的adj.",
-     "memory": "unit单元 al形容词",
+     "memory": "al形容词",
      "segments": []
     },
     {
@@ -6634,7 +6634,7 @@
      "root": "vers/verse",
      "rootMeaning": "转",
      "meaning": "公开争论n.",
-     "memory": "unit单元 contro相反 + vers转 + y名词，反着转—抬杠",
+     "memory": "contro相反 + vers转 + y名词，反着转—抬杠",
      "segments": []
     },
     {
@@ -6642,7 +6642,7 @@
      "root": "vers/verse",
      "rootMeaning": "转",
      "meaning": "引起争论的adj.",
-     "memory": "unit单元 al形容词",
+     "memory": "al形容词",
      "segments": []
     },
     {
@@ -6936,7 +6936,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "使用，应用，申请v.",
-     "memory": "play，玩折纸 ap去 + ply折叠，折进去卷进去，申请加入；app应用",
+     "memory": "ap去 + ply折叠，折进去卷进去，申请加入；app应用",
      "segments": []
     },
     {
@@ -6944,7 +6944,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "可适用的，合适的adj.",
-     "memory": "play，玩折纸 able可以",
+     "memory": "able可以",
      "segments": []
     },
     {
@@ -6952,7 +6952,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "申请人n.",
-     "memory": "play，玩折纸 ant人",
+     "memory": "ant人",
      "segments": []
     },
     {
@@ -6960,7 +6960,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "申请，应用，应用程序n.",
-     "memory": "play，玩折纸 ation名词折叠，填充",
+     "memory": "ation名词折叠，填充",
      "segments": []
     },
     {
@@ -6968,7 +6968,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "暗示，说明v.",
-     "memory": "play，玩折纸 im里面 + ply折叠，折进去藏起来，说话不显露拐弯抹角",
+     "memory": "im里面 + ply折叠，折进去藏起来，说话不显露拐弯抹角",
      "segments": []
     },
     {
@@ -6976,7 +6976,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "暗示的，内含的adj.",
-     "memory": "play，玩折纸 im里面 + plic折叠 + it(联想它)  纸",
+     "memory": "im里面 + plic折叠 + it(联想它)  纸",
      "segments": []
     },
     {
@@ -6984,7 +6984,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "暗指，含意n.",
-     "memory": "play，玩折纸 ation名词",
+     "memory": "ation名词",
      "segments": []
     },
     {
@@ -6992,7 +6992,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "直言不讳的，明确的adj.",
-     "memory": "play，玩折纸 ex外 + plic折叠 + it(联想它)，折出来不藏着，说话不藏着",
+     "memory": "ex外 + plic折叠 + it(联想它)，折出来不藏着，说话不藏着",
      "segments": []
     },
     {
@@ -7000,7 +7000,7 @@
      "root": "ply/plic",
      "rootMeaning": "折叠，填充",
      "meaning": "明确地，明白地adv.",
-     "memory": "play，玩折纸 ly副词",
+     "memory": "ly副词",
      "segments": []
     },
     {
@@ -7352,7 +7352,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "回答，反应v.",
-     "memory": "spend 花费 谐音：你是棒的",
+     "memory": "谐音：你是棒的",
      "segments": []
     },
     {
@@ -7360,7 +7360,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "回答，反应n.",
-     "memory": "spend 花费 来自respond",
+     "memory": "来自respond",
      "segments": []
     },
     {
@@ -7368,7 +7368,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "有责任的adj.",
-     "memory": "spend 花费 ible可以",
+     "memory": "ible可以",
      "segments": []
     },
     {
@@ -7376,7 +7376,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "责任n.",
-     "memory": "spend 花费 ibility，ability能力性能",
+     "memory": "ibility，ability能力性能",
      "segments": []
     },
     {
@@ -7384,7 +7384,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "相一致，相当于，通信v.",
-     "memory": "spend 花费 cor一起 + respond 反应/回答，一起作出反应",
+     "memory": "cor一起 + respond 反应/回答，一起作出反应",
      "segments": []
     },
     {
@@ -7392,7 +7392,7 @@
      "root": "spond sponse",
      "rootMeaning": "承诺",
      "meaning": "相关，通信n.",
-     "memory": "spend 花费 ence名词",
+     "memory": "ence名词",
      "segments": []
     },
     {
@@ -7552,7 +7552,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "接受，认可v.",
-     "memory": "cap 帽子 ac朝向 + cept拿，过去拿接过来",
+     "memory": "ac朝向 + cept拿，过去拿接过来",
      "segments": []
     },
     {
@@ -7560,7 +7560,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "接受n.",
-     "memory": "cap 帽子 ance名词",
+     "memory": "ance名词",
      "segments": []
     },
     {
@@ -7568,7 +7568,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "可接受的adj.",
-     "memory": "cap 帽子 able可以",
+     "memory": "able可以",
      "segments": []
     },
     {
@@ -7576,7 +7576,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "概念，观念n.",
-     "memory": "cap 帽子 con一起 + cept拿，经常被大家一起拿出来讲的话，共同认可的观念",
+     "memory": "con一起 + cept拿，经常被大家一起拿出来讲的话，共同认可的观念",
      "segments": []
     },
     {
@@ -7584,7 +7584,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "概念n.",
-     "memory": "cap 帽子 ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -7592,7 +7592,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "错误认知n.",
-     "memory": "cap 帽子 mis错误的",
+     "memory": "mis错误的",
      "segments": []
     },
     {
@@ -7600,7 +7600,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "概念上的，观念上的adj.",
-     "memory": "cap 帽子 ual形容词，有..性质的",
+     "memory": "ual形容词，有..性质的",
      "segments": []
     },
     {
@@ -7608,7 +7608,7 @@
      "root": "cept",
      "rootMeaning": "拿",
      "meaning": "易受..影响的，易患病的adj.",
-     "memory": "cap 帽子 sus下面 + cept拿 + ible可能，容易被拿下的",
+     "memory": "sus下面 + cept拿 + ible可能，容易被拿下的",
      "segments": []
     },
     {
@@ -7616,7 +7616,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "参与v.",
-     "memory": "cap 帽子 parti部分 + cip拿 + ate动词，拿来一部分力量—参与",
+     "memory": "parti部分 + cip拿 + ate动词，拿来一部分力量—参与",
      "segments": []
     },
     {
@@ -7624,7 +7624,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "参与者n.",
-     "memory": "cap 帽子 ant人",
+     "memory": "ant人",
      "segments": []
     },
     {
@@ -7632,7 +7632,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "参与n.",
-     "memory": "cap 帽子 ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -7640,7 +7640,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "行为准则，原理，定律n.",
-     "memory": "cap 帽子 prin主要的 + cip抓住 + le，抓住事物主要的发展规律",
+     "memory": "prin主要的 + cip抓住 + le，抓住事物主要的发展规律",
      "segments": []
     },
     {
@@ -7648,7 +7648,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "自制力，行为准则，学科n.",
-     "memory": "cap 帽子 dis不 + cip拿 + line线，不去触碰这条底线——行为准则",
+     "memory": "dis不 + cip拿 + line线，不去触碰这条底线——行为准则",
      "segments": []
     },
     {
@@ -7656,7 +7656,7 @@
      "root": "cip",
      "rootMeaning": "拿",
      "meaning": "预料，期盼v.",
-     "memory": "cap 帽子 anti前面 + cip拿 + ate，提前抓住拿住—预料",
+     "memory": "anti前面 + cip拿 + ate，提前抓住拿住—预料",
      "segments": []
     },
     {
@@ -7736,7 +7736,7 @@
      "root": "ident",
      "rootMeaning": "一致",
      "meaning": "识别，确定v.",
-     "memory": "ID，前后ID要一致 ident我等他 + ify我反应，ident一致 + ify使，对照是否一致",
+     "memory": "ident我等他 + ify我反应，ident一致 + ify使，对照是否一致",
      "segments": []
     },
     {
@@ -7744,7 +7744,7 @@
      "root": "ident",
      "rootMeaning": "一致",
      "meaning": "身份，特征，一致n.",
-     "memory": "ID，前后ID要一致 ity名词",
+     "memory": "ity名词",
      "segments": []
     },
     {
@@ -7752,7 +7752,7 @@
      "root": "ident",
      "rootMeaning": "一致",
      "meaning": "可识别的adj.",
-     "memory": "ID，前后ID要一致 able可以",
+     "memory": "able可以",
      "segments": []
     },
     {
@@ -8136,7 +8136,7 @@
      "root": "fore",
      "rootMeaning": "在前面",
      "meaning": "预测v.n.",
-     "memory": "fore在前 + cast扔，提前扔",
+     "memory": "+ cast扔，提前扔",
      "segments": []
     },
     {
@@ -8144,7 +8144,7 @@
      "root": "fore",
      "rootMeaning": "在前面",
      "meaning": "可预见的adj.",
-     "memory": "fore在前 + see看 + able可以，可以提前看见",
+     "memory": "+ see看 + able可以，可以提前看见",
      "segments": []
     },
     {
@@ -8152,7 +8152,7 @@
      "root": "fore",
      "rootMeaning": "在前面",
      "meaning": "预示v.",
-     "memory": "fore在前 + shadow影子，一个黑影出现在面前",
+     "memory": "+ shadow影子，一个黑影出现在面前",
      "segments": []
     },
     {
@@ -8598,7 +8598,7 @@
      "root": "nect",
      "rootMeaning": "连接",
      "meaning": "连接，联结，把..联系起来v.",
-     "memory": "next 下一个 con来 + nect连接",
+     "memory": "con来 + nect连接",
      "segments": []
     },
     {
@@ -8606,7 +8606,7 @@
      "root": "nect",
      "rootMeaning": "连接",
      "meaning": "联系，连接n.",
-     "memory": "next 下一个 ion名词",
+     "memory": "ion名词",
      "segments": []
     },
     {
@@ -8614,7 +8614,7 @@
      "root": "nect",
      "rootMeaning": "连接",
      "meaning": "使脱离，断开v.",
-     "memory": "next 下一个 dis否定",
+     "memory": "dis否定",
      "segments": []
     },
     {
@@ -8630,7 +8630,7 @@
      "root": "pet",
      "rootMeaning": "追求",
      "meaning": "竞争，比赛v.",
-     "memory": "pet 宠物 com一起 + pete追求，一起追求一个目标",
+     "memory": "com一起 + pete追求，一起追求一个目标",
      "segments": []
     },
     {
@@ -8638,7 +8638,7 @@
      "root": "pet",
      "rootMeaning": "追求",
      "meaning": "有能力的adj.",
-     "memory": "pet 宠物 ent形容词",
+     "memory": "ent形容词",
      "segments": []
     },
     {
@@ -8646,7 +8646,7 @@
      "root": "pet",
      "rootMeaning": "追求",
      "meaning": "竞争，竞争对手/产品n.",
-     "memory": "pet 宠物 ition名词",
+     "memory": "ition名词",
      "segments": []
     },
     {
@@ -8654,7 +8654,7 @@
      "root": "pet",
      "rootMeaning": "追求",
      "meaning": "竞争的adj.",
-     "memory": "pet 宠物 itive形容词",
+     "memory": "itive形容词",
      "segments": []
     },
     {
@@ -8662,7 +8662,7 @@
      "root": "pet",
      "rootMeaning": "追求",
      "meaning": "竞争者n.",
-     "memory": "pet 宠物 or表人",
+     "memory": "or表人",
      "segments": []
     },
     {
@@ -9038,7 +9038,7 @@
      "root": "limin",
      "rootMeaning": "限制",
      "meaning": "限制，极限n. 限制，限量v.",
-     "memory": "limi 厘米 limi厘米 + t太，一厘米一厘米前进，太限制了",
+     "memory": "limi厘米 + t太，一厘米一厘米前进，太限制了",
      "segments": []
     },
     {
@@ -9046,7 +9046,7 @@
      "root": "limin",
      "rootMeaning": "限制",
      "meaning": "限制，局限性n.",
-     "memory": "limi 厘米 ation名词",
+     "memory": "ation名词",
      "segments": []
     },
     {
@@ -9054,7 +9054,7 @@
      "root": "limin",
      "rootMeaning": "限制",
      "meaning": "根除，消灭，淘汰v.",
-     "memory": "limi 厘米 e外面 + limin限制 + ate，把..限制在外面",
+     "memory": "e外面 + limin限制 + ate，把..限制在外面",
      "segments": []
     },
     {

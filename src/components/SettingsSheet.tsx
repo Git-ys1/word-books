@@ -171,6 +171,36 @@ export default function SettingsSheet({
           />
         </section>
 
+        {/* 每日目标：数据看板的环形完成度分母，用户自己定 */}
+        <section className="mt-5">
+          <div className="flex items-baseline justify-between">
+            <h3 className="text-[14px] font-medium text-ink-900">每日新学目标</h3>
+            <span className="text-[12px] tabular-nums text-ink-400">{settings.dailyGoal ?? 30} 词</span>
+          </div>
+          <p className="mt-1 text-[12px] leading-relaxed text-ink-400">
+            数据页的「今日目标」环形图按这个数字算完成度。按自己的节奏来，别为了刷进度硬背。
+          </p>
+          <div className="mt-3 grid grid-cols-4 gap-2">
+            {[15, 30, 50, 80].map((v) => {
+              const active = (settings.dailyGoal ?? 30) === v
+              return (
+                <button
+                  key={v}
+                  onClick={() => onChange({ ...settings, dailyGoal: v })}
+                  className={`rounded-xl border py-2.5 transition active:scale-[.98] ${
+                    active ? 'border-brand-500/40 bg-brand-50' : 'border-ink-100 bg-white'
+                  }`}
+                >
+                  <span className={`block text-[15px] font-bold tabular-nums ${active ? 'text-brand-600' : 'text-ink-900'}`}>
+                    {v}
+                  </span>
+                  <span className={`mt-0.5 block text-[10px] ${active ? 'text-brand-500' : 'text-ink-400'}`}>词/天</span>
+                </button>
+              )
+            })}
+          </div>
+        </section>
+
         {/* 开关项 */}
         <section className="mt-5 divide-y divide-ink-100 rounded-2xl border border-ink-100">
           <Toggle
